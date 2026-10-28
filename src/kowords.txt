@@ -1,5 +1,5 @@
 @transport 🚆 Transport
-*택시|taeksi|taxi|TEK-shee|Late-night surcharge after ~10–11 PM (check)
+*택시|taeksi|taxi|TEK-shee|Late-night surcharge 10 PM–4 AM (20%, 40% from 11 PM–2 AM)
 기차|gicha|train|GEE-chah|
 *KTX|keitiekseu|bullet train (KTX)|KAY-tee-EK-seu|Said 케이티엑스
 *지하철|jihacheol|subway|JEE-hah-chuhl|
