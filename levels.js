@@ -244,7 +244,7 @@ const LEVELS={
 "교통카드 충전하고 싶어요",
 "gyotongkadeu chungjeonhago sipeoyo",
 "I'd like to top up my transit card",
-"-고 싶어요 = I want to. Top-ups are cash at station machines and convenience stores.",
+"-고 싶어요 = I want to. Top-ups are usually cash only, at station machines or convenience stores.",
 "gyoh-tong-kah-deu choong-juhn-hah-goh shee-puh-yo"
 ],
 [
@@ -749,11 +749,11 @@ const LEVELS={
 "jahm-shee-mahn-yo, johm jee-nah-gahl-keh-yo"
 ],
 [
-"카드를 한 장만 대 주세요",
-"kadeureul han jangman dae juseyo",
-"Please tap only one card",
-"🎧 Reader message when it detects two cards.",
-"kah-deu-reul hahn jahng-mahn deh joo-seh-yo"
+"환승입니다",
+"hwanseungimnida",
+"Transfer (card reader voice)",
+"🎧 Heard when you tap within the free-transfer window.",
+"hwahn-seung-eem-nee-dah"
 ]
 ],
 "emergency": [

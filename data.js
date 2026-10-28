@@ -8,7 +8,7 @@ greetings:[
 ["こんばんは","konbanwa","Good evening","After dark."],
 ["ありがとうございます","arigatō gozaimasu","Thank you (polite)","The safe default thank-you."],
 ["すみません","sumimasen","Excuse me / Sorry","Get attention, apologize lightly, or thank."],
-["ごめんなさい","gomen nasai","I'm sorry","Personal apology; softer than sumimasen."],
+["ごめんなさい","gomen nasai","I'm sorry","Personal apology; less formal than sumimasen, so use sumimasen with strangers."],
 ["はい","hai","Yes","Also 'I'm listening'."],
 ["いいえ","iie","No","Often softened; Japanese avoid a blunt no."],
 ["お願いします","onegai shimasu","Please (requesting)","Add after a noun: 'kore, onegai shimasu'."],
@@ -128,7 +128,7 @@ numbers:[
 ["원","won","Won (currency)",""],
 ["하나, 둘, 셋","hana, dul, set","One, two, three (native)","Native numbers count items/people: 'hana juseyo'."],
 ["얼마예요?","eolmayeyo?","How much is it?",""],
-["카드 돼요?","kadeu dwaeyo?","Do you take cards?","Polite casual; cards are accepted almost everywhere."],
+["카드 돼요?","kadeu dwaeyo?","Do you take cards?","Polite everyday style (-요); cards are accepted almost everywhere."],
 ["현금만 돼요?","hyeongeumman dwaeyo?","Cash only?",""]],
 food:[
 ["메뉴 주세요","menyu juseyo","Menu, please",""],

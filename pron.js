@@ -40,7 +40,7 @@ const PRON={ja:{
 "맥주 한 병 주세요":"mek-joo hahn byung joo-seh-yo","포장해 주세요":"poh-jahng-heh joo-seh-yo","덜 맵게 해 주세요":"duhl mep-keh heh joo-seh-yo","고기 못 먹어요":"goh-gee mon muh-guh-yo",
 "알레르기가 있어요":"ahl-leh-reu-gee-gah ee-ssuh-yo","여기요!":"yuh-gee-yo!","반찬 더 주세요":"bahn-chahn duh joo-seh-yo",
 "역이 어디예요?":"yuh-gee uh-dee-yeh-yo?","화장실 어디예요?":"hwah-jahng-sheel uh-dee-yeh-yo?","…로 가 주세요":"… roh gah joo-seh-yo","이 지하철 …에 가요?":"ee jee-hah-chuhl … eh gah-yo?",
-"표":"pyo","오른쪽":"oh-reun-jjok","왼쪽":"wen-jjok","똑바로":"ttohk-bah-roh","비싸요":"bee-ssah-yo","싸요":"ssah-yo","방":"bahng","가까워요?":"gah-kkah-wuh-yo?","출구":"chool-goo","갈아타다":"gah-rah-tah-dah","다음 역":"dah-eum nyuk","지하철":"jee-hah-chuhl",
+"표":"pyo","오른쪽":"oh-reun-jjok","왼쪽":"wen-jjok","똑바로":"ttohk-bah-roh","비싸요":"bee-ssah-yo","싸요":"ssah-yo","방":"bahng","가까워요?":"gah-kkah-wuh-yo?","출구":"chool-goo","갈아타다":"gah-rah-tah-dah","다음 역":"dah-eum yuk","지하철":"jee-hah-chuhl",
 "버스 정류장":"buh-seu juhng-nyoo-jahng","길을 잃었어요":"gee-reul ee-ruh-ssuh-yo",
 "도와주세요!":"doh-wah-joo-seh-yo!","구급차 불러 주세요":"goo-geup-chah bool-luh joo-seh-yo","경찰 불러 주세요":"gyung-chahl bool-luh joo-seh-yo","병원이 어디예요?":"byung-wuh-nee uh-dee-yeh-yo?",
 "아파요":"ah-pah-yo","여기가 아파요":"yuh-gee-gah ah-pah-yo","지갑을 잃어버렸어요":"jee-gah-beul ee-ruh-buh-ryuh-ssuh-yo","약국 어디예요?":"yahk-kook uh-dee-yeh-yo?",
