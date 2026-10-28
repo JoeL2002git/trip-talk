@@ -1,0 +1,28 @@
+行く|iku|to go|Group 1 (irregular て-form: 行って)|行きます;ikimasu|行きました;ikimashita|行きません;ikimasen|行きたいです;ikitai desu|行ってください;itte kudasai|明日京都に行きます;ashita Kyōto ni ikimasu;I'm going to Kyoto tomorrow|ee-koo
+来る|kuru|to come|Irregular|来ます;kimasu|来ました;kimashita|来ません;kimasen|来たいです;kitai desu|来てください;kite kudasai|友達が日本に来ました;tomodachi ga Nihon ni kimashita;My friend came to Japan|koo-roo
+する|suru|to do|Irregular|します;shimasu|しました;shimashita|しません;shimasen|したいです;shitai desu|してください;shite kudasai|何をしますか;nani o shimasu ka;What will you do?|soo-roo
+勉強する|benkyō suru|to study|Irregular (する verb)|勉強します;benkyō shimasu|勉強しました;benkyō shimashita|勉強しません;benkyō shimasen|勉強したいです;benkyō shitai desu||日本語を勉強します;nihongo o benkyō shimasu;I study Japanese|behn-KYOH soo-roo
+食べる|taberu|to eat|Group 2 (る-verb)|食べます;tabemasu|食べました;tabemashita|食べません;tabemasen|食べたいです;tabetai desu|食べてください;tabete kudasai|すしが食べたいです;sushi ga tabetai desu;I want to eat sushi|tah-beh-roo
+飲む|nomu|to drink|Group 1|飲みます;nomimasu|飲みました;nomimashita|飲みません;nomimasen|飲みたいです;nomitai desu|飲んでください;nonde kudasai|お茶を飲みました;o-cha o nomimashita;I drank tea|noh-moo
+見る|miru|to see / watch|Group 2|見ます;mimasu|見ました;mimashita|見ません;mimasen|見たいです;mitai desu|見てください;mite kudasai|富士山が見たいです;Fujisan ga mitai desu;I want to see Mt. Fuji|mee-roo
+買う|kau|to buy|Group 1|買います;kaimasu|買いました;kaimashita|買いません;kaimasen|買いたいです;kaitai desu||お土産を買いました;o-miyage o kaimashita;I bought souvenirs|kah-oo
+分かる|wakaru|to understand|Group 1|分かります;wakarimasu|分かりました;wakarimashita|分かりません;wakarimasen|||英語が分かりますか;eigo ga wakarimasu ka;Do you understand English?|wah-kah-roo
+聞く|kiku|to listen / ask|Group 1|聞きます;kikimasu|聞きました;kikimashita|聞きません;kikimasen|聞きたいです;kikitai desu|聞いてください;kiite kudasai|音楽を聞きます;ongaku o kikimasu;I listen to music|kee-koo
+歩く|aruku|to walk|Group 1|歩きます;arukimasu|歩きました;arukimashita|歩きません;arukimasen|歩きたいです;arukitai desu||たくさん歩きました;takusan arukimashita;I walked a lot|ah-roo-koo
+乗る|noru|to ride / get on|Group 1|乗ります;norimasu|乗りました;norimashita|乗りません;norimasen|乗りたいです;noritai desu||新幹線に乗りたいです;shinkansen ni noritai desu;I want to ride the shinkansen|noh-roo
+寝る|neru|to sleep|Group 2|寝ます;nemasu|寝ました;nemashita|寝ません;nemasen|寝たいです;netai desu||早く寝ます;hayaku nemasu;I'll go to bed early|neh-roo
+読む|yomu|to read|Group 1|読みます;yomimasu|読みました;yomimashita|読みません;yomimasen|読みたいです;yomitai desu|読んでください;yonde kudasai|本を読みます;hon o yomimasu;I read books|yoh-moo
+書く|kaku|to write|Group 1|書きます;kakimasu|書きました;kakimashita|書きません;kakimasen|書きたいです;kakitai desu|書いてください;kaite kudasai|ここに名前を書いてください;koko ni namae o kaite kudasai;Please write your name here|kah-koo
+待つ|matsu|to wait|Group 1|待ちます;machimasu|待ちました;machimashita|待ちません;machimasen|||ちょっと待ってください;chotto matte kudasai;Please wait a moment|mah-tsoo
+会う|au|to meet|Group 1|会います;aimasu|会いました;aimashita|会いません;aimasen|会いたいです;aitai desu||六時に会いましょう;rokuji ni aimashō;Let's meet at six|ah-oo
+話す|hanasu|to speak|Group 1|話します;hanashimasu|話しました;hanashimashita|話しません;hanashimasen|話したいです;hanashitai desu|話してください;hanashite kudasai|ゆっくり話してください;yukkuri hanashite kudasai;Please speak slowly|hah-nah-soo
+帰る|kaeru|to go home / return|Group 1 (looks like る-verb but isn't)|帰ります;kaerimasu|帰りました;kaerimashita|帰りません;kaerimasen|帰りたいです;kaeritai desu||ホテルに帰ります;hoteru ni kaerimasu;I'm going back to the hotel|kah-eh-roo
+起きる|okiru|to wake up|Group 2|起きます;okimasu|起きました;okimashita|起きません;okimasen|||七時に起きました;shichiji ni okimashita;I got up at seven|oh-kee-roo
+使う|tsukau|to use|Group 1|使います;tsukaimasu|使いました;tsukaimashita|使いません;tsukaimasen|使いたいです;tsukaitai desu||カードを使います;kādo o tsukaimasu;I'll use a card|tsoo-kah-oo
+降りる|oriru|to get off|Group 2|降ります;orimasu|降りました;orimashita|降りません;orimasen|||次の駅で降ります;tsugi no eki de orimasu;I get off at the next station|oh-ree-roo
+探す|sagasu|to look for|Group 1|探します;sagashimasu|探しました;sagashimashita|探しません;sagashimasen|||駅を探しています;eki o sagashite imasu;I'm looking for the station|sah-gah-soo
+休む|yasumu|to rest|Group 1|休みます;yasumimasu|休みました;yasumimashita|休みません;yasumimasen|休みたいです;yasumitai desu||ホテルで休みたいです;hoteru de yasumitai desu;I want to rest at the hotel|yah-soo-moo
+教える|oshieru|to teach / tell|Group 2|教えます;oshiemasu|教えました;oshiemashita|教えません;oshiemasen||教えてください;oshiete kudasai|道を教えてください;michi o oshiete kudasai;Please tell me the way|oh-shee-eh-roo
+撮る|toru|to take (a photo)|Group 1|撮ります;torimasu|撮りました;torimashita|撮りません;torimasen|撮りたいです;toritai desu|撮ってください;totte kudasai|写真を撮ってください;shashin o totte kudasai;Please take a photo|toh-roo
+ある|aru|to be/have (things)|Group 1 (negative ない is irregular)|あります;arimasu|ありました;arimashita|ありません;arimasen|||トイレはありますか;toire wa arimasu ka;Is there a toilet?|ah-roo
+いる|iru|to be (people/animals)|Group 2|います;imasu|いました;imashita|いません;imasen|||英語を話せる人はいますか;eigo o hanaseru hito wa imasu ka;Is there anyone who speaks English?|ee-roo
