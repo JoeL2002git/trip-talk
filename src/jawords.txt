@@ -1,0 +1,156 @@
+@transport 🚆 Transport
+*タクシー|タクシー|takushī|taxi|TAH-koo-shee|Loanword; late-night fares +20% (approx.)
+電車|でんしゃ|densha|train|DEN-shah|
+*新幹線|しんかんせん|shinkansen|bullet train|sheen-KAHN-sen|Nozomi = fastest, Hikari, Kodama = all stops
+地下鉄|ちかてつ|chikatetsu|subway|chee-KAH-teh-tsoo|
+バス|バス|basu|bus|BAH-soo|Loanword
+*空港|くうこう|kūkō|airport|KOO-koh|
+切符|きっぷ|kippu|ticket|KEEP-poo|Train/bus ticket
+ホーム|ホーム|hōmu|platform|HOH-moo|From "platform"; signs show 番線 (track no.)
+出口|でぐち|deguchi|exit|deh-GOO-chee|Sign: 出口
+入口|いりぐち|iriguchi|entrance|ee-REE-goo-chee|Sign: 入口
+*乗り換え|のりかえ|norikae|transfer|noh-ree-KAH-eh|Sign: 乗換
+駅|えき|eki|station|EH-kee|
+*改札|かいさつ|kaisatsu|ticket gate|KAI-sah-tsoo|
+飛行機|ひこうき|hikōki|airplane|hee-KOH-kee|
+*指定席|していせき|shiteiseki|reserved seat|shee-TAY-seh-kee|
+*自由席|じゆうせき|jiyūseki|non-reserved seat|jee-YOO-seh-kee|Nozomi has few non-reserved cars
+*終電|しゅうでん|shūden|last train|SHOO-den|Often around midnight
+*モノレール|モノレール|monorēru|monorail|moh-noh-REH-roo|Tokyo Monorail goes to Haneda
+*京急|けいきゅう|Keikyū|Keikyu Line|KAY-kyoo|Haneda ↔ Shinagawa
+*ロープウェイ|ロープウェイ|rōpuwei|ropeway (cable car)|ROH-poo-way|Hakone Ropeway
+*コインロッカー|コインロッカー|koin rokkā|coin locker|KOH-een ROHK-kah|Many take Suica
+*スイカ|スイカ|Suika|Suica (IC card)|SOO-ee-kah|Written Suica; also means watermelon
+*窓口|まどぐち|madoguchi|ticket counter|mah-DOH-goo-chee|JR: みどりの窓口
+@places 📍 Places
+ホテル|ホテル|hoteru|hotel|HOH-teh-roo|Loanword
+トイレ|トイレ|toire|bathroom / toilet|TOY-reh|Sign: お手洗い also common
+*コンビニ|コンビニ|konbini|convenience store|KOHN-bee-nee|
+薬局|やっきょく|yakkyoku|pharmacy|YAHK-kyoh-koo|Also ドラッグストア
+病院|びょういん|byōin|hospital|BYOH-een|
+交番|こうばん|kōban|police box|KOH-bahn|Small neighborhood police post
+銀行|ぎんこう|ginkō|bank|GEEN-koh|
+ATM|エーティーエム|ētīemu|ATM|ay-tee-EH-moo|Konbini ATMs take foreign cards
+お寺|おてら|otera|(Buddhist) temple|oh-TEH-rah|Names end in 〜寺 (-ji)
+*神社|じんじゃ|jinja|(Shinto) shrine|JEEN-jah|Fushimi Inari is a shrine (大社)
+*鳥居|とりい|torii|shrine gate|toh-REE-ee|
+城|しろ|shiro|castle|SHEE-roh|Names end in 〜城 (-jō)
+市場|いちば|ichiba|market|EE-chee-bah|
+郵便局|ゆうびんきょく|yūbinkyoku|post office|YOO-been-kyoh-koo|Sign: 〒
+*温泉|おんせん|onsen|hot spring|OHN-sen|Wash before entering; tattoos often not allowed
+*カプセルホテル|カプセルホテル|kapuseru hoteru|capsule hotel|kah-POO-seh-roo HOH-teh-roo|
+*ネットカフェ|ネットカフェ|netto kafe|internet cafe|NET-toh KAH-feh|Also 漫画喫茶 (manga cafe)
+*居酒屋|いざかや|izakaya|Japanese pub|ee-ZAH-kah-yah|
+*横丁|よこちょう|yokochō|alley of small bars|YOH-koh-choh|
+*ゲームセンター|ゲームセンター|gēmu sentā|arcade|GAY-moo SEN-tah|Short: ゲーセン
+*旅館|りょかん|ryokan|Japanese inn|RYOH-kahn|
+@food 🍜 Food & drink
+水|みず|mizu|water|MEE-zoo|Usually free at restaurants
+お茶|おちゃ|ocha|(green) tea|OH-chah|
+ビール|ビール|bīru|beer|BEE-roo|
+*生ビール|なまビール|nama bīru|draft beer|NAH-mah BEE-roo|Short: 生 (nama)
+ご飯|ごはん|gohan|rice / meal|goh-HAHN|
+肉|にく|niku|meat|NEE-koo|
+魚|さかな|sakana|fish|sah-KAH-nah|
+野菜|やさい|yasai|vegetables|yah-SAI|
+卵|たまご|tamago|egg|tah-MAH-goh|
+朝ご飯|あさごはん|asagohan|breakfast|ah-sah-goh-HAHN|
+晩ご飯|ばんごはん|bangohan|dinner|bahn-goh-HAHN|
+メニュー|メニュー|menyū|menu|MEH-nyoo|
+お箸|おはし|ohashi|chopsticks|oh-HAH-shee|
+*ラーメン|ラーメン|rāmen|ramen|RAH-men|
+*食券|しょっけん|shokken|meal ticket|SHOHK-ken|Buy from the 券売機 machine first
+*券売機|けんばいき|kenbaiki|ticket machine|KEN-bai-kee|Many ramen shops: cash only
+*串カツ|くしカツ|kushikatsu|fried skewers|koo-shee-KAH-tsoo|Shinsekai rule: no double-dipping the sauce
+*たこ焼き|たこやき|takoyaki|octopus balls|tah-koh-YAH-kee|
+*お好み焼き|おこのみやき|okonomiyaki|savory pancake|oh-koh-noh-mee-YAH-kee|
+*焼き鳥|やきとり|yakitori|chicken skewers|yah-kee-TOH-ree|
+*牛カツ|ぎゅうカツ|gyūkatsu|beef cutlet|GYOO-kah-tsoo|
+*メンチカツ|メンチカツ|menchi katsu|fried minced-meat cutlet|MEN-chee KAH-tsoo|
+*メロンパン|メロンパン|meronpan|melon bread|meh-ROHN-pahn|Sweet bun; usually no melon in it
+*黒たまご|くろたまご|kuro tamago|black egg|koo-roh tah-MAH-goh|Owakudani specialty
+*お通し|おとおし|otōshi|izakaya cover snack|oh-TOH-shee|Small charged appetizer
+@money 💴 Money & shopping
+お金|おかね|okane|money|oh-KAH-neh|
+円|えん|en|yen|EN|Written 円 or ¥
+*現金|げんきん|genkin|cash|GEN-keen|Sign: 現金のみ = cash only
+クレジットカード|クレジットカード|kurejitto kādo|credit card|koo-REH-jeet-toh KAH-doh|Often just カード
+お釣り|おつり|otsuri|change (money back)|oh-TSOO-ree|
+レシート|レシート|reshīto|receipt|reh-SHEE-toh|
+値段|ねだん|nedan|price|neh-DAHN|
+袋|ふくろ|fukuro|bag|foo-KOO-roh|Asked: 袋いりますか?
+お土産|おみやげ|omiyage|souvenir|oh-MEE-yah-geh|
+*免税|めんぜい|menzei|tax-free|MEN-zay|Bring your passport
+*サイズ|サイズ|saizu|size|SAI-zoo|
+*試着室|しちゃくしつ|shichakushitsu|fitting room|shee-CHAH-koo-shee-tsoo|
+*スニーカー|スニーカー|sunīkā|sneakers|soo-NEE-kah|
+財布|さいふ|saifu|wallet|SAI-foo|
+@hotel 🏨 Hotel & room
+部屋|へや|heya|room|HEH-yah|
+鍵|かぎ|kagi|key|KAH-gee|Hotels often say キー
+*予約|よやく|yoyaku|reservation|yoh-YAH-koo|
+*荷物|にもつ|nimotsu|luggage|nee-MOH-tsoo|
+タオル|タオル|taoru|towel|TAH-oh-roo|
+枕|まくら|makura|pillow|mah-KOO-rah|
+エレベーター|エレベーター|erebētā|elevator|eh-reh-BEH-tah|
+階段|かいだん|kaidan|stairs|KAI-dahn|
+朝食|ちょうしょく|chōshoku|breakfast (formal)|CHOH-shoh-koo|Hotel signs use 朝食
+*お風呂|おふろ|ofuro|bath|oh-FOO-roh|
+シャワー|シャワー|shawā|shower|SHAH-wah|
+フロント|フロント|furonto|front desk|foo-ROHN-toh|
+*チェックイン|チェックイン|chekku in|check-in|CHEK-koo een|
+*浴衣|ゆかた|yukata|cotton robe|yoo-KAH-tah|Worn at onsen hotels; left over right
+*大浴場|だいよくじょう|daiyokujō|large shared bath|dai-YOH-koo-joh|
+@people 👪 People & family
+人|ひと|hito|person|hee-TOH|
+*友達|ともだち|tomodachi|friend|toh-moh-DAH-chee|
+家族|かぞく|kazoku|family|KAH-zoh-koo|
+父|ちち|chichi|(my) father|CHEE-chee|Someone else's: お父さん
+母|はは|haha|(my) mother|HAH-hah|Someone else's: お母さん
+子供|こども|kodomo|child|koh-DOH-moh|
+*男|おとこ|otoko|man / male|oh-toh-KOH|Bath curtain: 男 (often blue)
+*女|おんな|onna|woman / female|ohn-NAH|Bath curtain: 女 (often red)
+兄弟|きょうだい|kyōdai|siblings|KYOH-dai|
+店員|てんいん|ten'in|shop clerk|TEN-een|
+*三人|さんにん|sannin|three people|SAHN-neen|
+@time ⏰ Time
+今日|きょう|kyō|today|KYOH|
+明日|あした|ashita|tomorrow|ah-SHTAH|
+昨日|きのう|kinō|yesterday|kee-NOH|
+朝|あさ|asa|morning|AH-sah|
+昼|ひる|hiru|noon / daytime|hee-ROO|
+夜|よる|yoru|night|YOH-roo|
+今|いま|ima|now|ee-MAH|
+時間|じかん|jikan|time / hour|jee-KAHN|
+週末|しゅうまつ|shūmatsu|weekend|SHOO-mah-tsoo|
+月曜日|げつようび|getsuyōbi|Monday|geh-TSOO-yoh-bee|
+金曜日|きんようび|kin'yōbi|Friday|keen-YOH-bee|
+土曜日|どようび|doyōbi|Saturday|doh-YOH-bee|
+日曜日|にちようび|nichiyōbi|Sunday|nee-CHEE-yoh-bee|
+@body 🩺 Body & health
+頭|あたま|atama|head|ah-tah-MAH|
+お腹|おなか|onaka|stomach|oh-NAH-kah|
+歯|は|ha|tooth|HAH|
+熱|ねつ|netsu|fever|neh-TSOO|
+薬|くすり|kusuri|medicine|koo-SOO-ree|
+風邪|かぜ|kaze|a cold|kah-ZEH|
+医者|いしゃ|isha|doctor|EE-shah|
+救急車|きゅうきゅうしゃ|kyūkyūsha|ambulance|kyoo-KYOO-shah|Call 119
+アレルギー|アレルギー|arerugī|allergy|ah-REH-roo-gee|From German
+手|て|te|hand|TEH|
+足|あし|ashi|foot / leg|ah-SHEE|
+*入れ墨|いれずみ|irezumi|tattoo|ee-REH-zoo-mee|Also タトゥー; many onsen ban them
+@weather ☂️ Weather & things
+天気|てんき|tenki|weather|TEN-kee|
+雨|あめ|ame|rain|AH-meh|
+雪|ゆき|yuki|snow|yoo-KEE|
+傘|かさ|kasa|umbrella|KAH-sah|
+*携帯|けいたい|keitai|cell phone|KAY-tai|Also スマホ
+*充電器|じゅうでんき|jūdenki|charger|JOO-den-kee|
+*パスポート|パスポート|pasupōto|passport|pah-soo-POH-toh|
+地図|ちず|chizu|map|CHEE-zoo|
+*写真|しゃしん|shashin|photo|shah-SHEEN|
+ゴミ箱|ごみばこ|gomibako|trash can|goh-MEE-bah-koh|Rare on streets; try konbini
+晴れ|はれ|hare|sunny|hah-REH|
+*富士山|ふじさん|Fujisan|Mount Fuji|FOO-jee-sahn|
+*湖|みずうみ|mizuumi|lake|mee-ZOO-oo-mee|Lake Ashi = 芦ノ湖

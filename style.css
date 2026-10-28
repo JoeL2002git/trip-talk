@@ -80,3 +80,4 @@ input{width:100%;font-family:inherit;font-weight:600;font-size:20px;padding:16px
 .bub .bn{font-size:22px;font-weight:700}.bub .br{color:var(--acc);font-weight:600}.bub .be{color:var(--mute);font-size:14px;margin-top:4px}
 .bub.sm{font-size:14px;padding:8px 12px;opacity:.75;max-width:85%}.bub.me{margin-left:auto;background:var(--soft);border-radius:18px 18px 4px 18px;justify-content:flex-end}
 .vn{font-size:1.35rem;font-weight:700}.vrow small{display:block}.vform .r{align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.chip{border:1.5px solid var(--line,#ddd);background:#fff;border-radius:999px;padding:6px 11px;font:inherit;font-size:13px;font-weight:600;color:inherit}.chip.on{background:var(--pri,#1677c9);color:#fff;border-color:transparent}

@@ -1,0 +1,152 @@
+@transport 🚆 Transport
+*택시|taeksi|taxi|TEK-shee|Late-night surcharge after ~10–11 PM (check)
+기차|gicha|train|GEE-chah|
+*KTX|keitiekseu|bullet train (KTX)|KAY-tee-EK-seu|Said 케이티엑스
+*지하철|jihacheol|subway|JEE-hah-chuhl|
+버스|beoseu|bus|BUH-seu|
+*공항|gonghang|airport|GOHNG-hahng|
+*공항버스|gonghang beoseu|airport (limousine) bus|GOHNG-hahng BUH-seu|Also called 리무진 버스
+*공항철도|gonghang cheoldo|airport railroad (AREX)|GOHNG-hahng CHUHL-doh|
+표|pyo|ticket|PYOH|
+*승강장|seunggangjang|platform|SEUNG-gahng-jahng|
+*출구|chulgu|exit|CHOOL-goo|Subway exits are numbered: 3번 출구
+입구|ipgu|entrance|EEP-goo|
+*환승|hwanseung|transfer|HWAHN-seung|Card reader says 환승입니다
+역|yeok|station|YUHK|
+*호선|hoseon|(subway) line|HOH-suhn|2호선 = Line 2
+*교통카드|gyotong kadeu|transit card|GYOH-tohng KAH-deu|
+*티머니|timeoni|T-money card|TEE-muh-nee|
+비행기|bihaenggi|airplane|BEE-heng-gee|
+*막차|makcha|last train/bus|MAHK-chah|
+정류장|jeongnyujang|bus stop|JUHNG-nyoo-jahng|
+*물품보관함|mulpum bogwanham|coin locker|MOOL-poom BOH-gwahn-hahm|
+@places 📍 Places
+*호텔|hotel|hotel|HOH-tel|Loanword
+*화장실|hwajangsil|bathroom|HWAH-jahng-sheel|
+*편의점|pyeonuijeom|convenience store|PYUH-nee-juhm|
+약국|yakguk|pharmacy|YAHK-gook|Sign: 약
+병원|byeongwon|hospital|BYUHNG-won|
+파출소|pachulso|police box|PAH-chool-soh|
+은행|eunhaeng|bank|EUN-heng|
+ATM|eitiem|ATM|AY-tee-EM|Look for "Global ATM"
+*궁|gung|palace|GOONG|경복궁 = Gyeongbokgung
+절|jeol|(Buddhist) temple|JUHL|
+*시장|sijang|market|SHEE-jahng|
+식당|sikdang|restaurant|SHEEK-dahng|
+*PC방|pissibang|PC bang (gaming cafe)|pee-shee-BAHNG|Pay per hour
+*노래방|noraebang|karaoke room|noh-REH-bahng|
+*찜질방|jjimjilbang|bathhouse/sauna|JJEEM-jeel-bahng|
+*포차|pocha|street tent bar|POH-chah|Short for 포장마차
+*클럽|keulleop|club|KEUL-luhp|Bring your passport for ID
+*보드게임 카페|bodeugeim kape|board-game cafe|BOH-deu-gaym KAH-peh|
+*차이나타운|chainataun|Chinatown|CHAI-nah-town|Incheon Chinatown
+*면세점|myeonsejeom|duty-free shop|MYUHN-seh-juhm|
+@food 🍜 Food & drink
+물|mul|water|MOOL|Often self-serve
+커피|keopi|coffee|KUH-pee|
+맥주|maekju|beer|MEK-joo|
+*소주|soju|soju|SOH-joo|
+밥|bap|rice / meal|BAHP|
+고기|gogi|meat|GOH-gee|
+생선|saengseon|fish (as food)|SENG-suhn|
+계란|gyeran|egg|GYEH-rahn|
+메뉴|menyu|menu|MEH-nyoo|
+젓가락|jeotgarak|chopsticks|JUHT-gah-rahk|
+숟가락|sutgarak|spoon|SOOT-gah-rahk|
+아침|achim|breakfast / morning|AH-cheem|
+*호떡|hotteok|sweet filled pancake|HOH-ttuhk|Filling is hot!
+*만두|mandu|dumplings|MAHN-doo|
+*빈대떡|bindaetteok|mung bean pancake|BEEN-deh-ttuhk|Gwangjang Market favorite
+*떡볶이|tteokbokki|spicy rice cakes|TTUHK-boh-kee|
+*닭한마리|dakhanmari|whole chicken soup|DAHK-hahn-mah-ree|Means "one whole chicken"
+*짜장면|jjajangmyeon|black bean noodles|JJAH-jahng-myuhn|Born in Incheon Chinatown
+*치킨|chikin|fried chicken|CHEE-keen|
+*길거리 음식|gilgeori eumsik|street food|GEEL-guh-ree EUM-sheek|
+*안주|anju|bar snacks|AHN-joo|Food ordered with drinks
+@money 💴 Money & shopping
+돈|don|money|DOHN|
+원|won|won|WON|
+*현금|hyeongeum|cash|HYUHN-geum|
+카드|kadeu|card|KAH-deu|
+거스름돈|geoseureumdon|change|GUH-seu-reum-dohn|
+영수증|yeongsujeung|receipt|YUHNG-soo-jeung|
+가격|gagyeok|price|GAH-gyuhk|
+봉투|bongtu|bag|BOHNG-too|Stores charge for bags
+기념품|ginyeompum|souvenir|GEE-nyuhm-poom|
+*택스 리펀드|taekseu ripeondeu|tax refund|TEK-seu REE-puhn-deu|Sign: Tax Free / Tax Refund; bring passport
+*여권|yeogwon|passport|YUH-gwon|
+*사이즈|saijeu|size|SAI-jeu|
+*탈의실|taruisil|fitting room|TAH-ree-sheel|
+*운동화|undonghwa|sneakers|OON-dohng-hwah|
+*마스크팩|maseukeupaek|sheet mask|MAH-seu-keu-pek|
+*선크림|seonkeurim|sunscreen|SUHN-keu-reem|
+*할인|harin|discount|HAH-reen|
+@hotel 🏨 Hotel & room
+방|bang|room|BAHNG|
+열쇠|yeolsoe|key|YUHL-sweh|Hotels often use 카드키
+*예약|yeyak|reservation|YEH-yahk|
+*짐|jim|luggage|JEEM|
+수건|sugeon|towel|SOO-guhn|
+침대|chimdae|bed|CHEEM-deh|
+베개|begae|pillow|BEH-geh|
+엘리베이터|ellibeiteo|elevator|el-lee-BAY-tuh|
+계단|gyedan|stairs|GYEH-dahn|
+조식|josik|breakfast (hotel)|JOH-sheek|
+샤워|syawo|shower|SHAH-wuh|
+프런트|peureonteu|front desk|PEU-ruhn-teu|
+*체크인|chekeu-in|check-in|CHEH-keu-een|
+와이파이|waipai|Wi-Fi|WAI-pai|
+@people 👪 People & family
+사람|saram|person|SAH-rahm|
+*친구|chingu|friend|CHEEN-goo|
+가족|gajok|family|GAH-johk|
+아버지|abeoji|father|AH-buh-jee|
+어머니|eomeoni|mother|UH-muh-nee|
+아이|ai|child|AH-ee|
+남자|namja|man|NAHM-jah|
+여자|yeoja|woman|YUH-jah|
+형|hyeong|older brother (said by a male)|HYUHNG|Guys also use it for older male friends
+*사장님|sajangnim|owner / boss|SAH-jahng-neem|Polite way to address a shop owner
+직원|jigwon|staff|JEE-gwon|
+*세 명|se myeong|three people|SEH myuhng|
+@time ⏰ Time
+오늘|oneul|today|OH-neul|
+내일|naeil|tomorrow|NEH-eel|
+어제|eoje|yesterday|UH-jeh|
+아침|achim|morning|AH-cheem|
+점심|jeomsim|lunch / midday|JUHM-sheem|
+저녁|jeonyeok|evening / dinner|JUH-nyuhk|
+밤|bam|night|BAHM|
+지금|jigeum|now|JEE-geum|
+시간|sigan|time / hour|SHEE-gahn|
+주말|jumal|weekend|JOO-mahl|
+월요일|woryoil|Monday|WUH-ryoh-eel|
+금요일|geumyoil|Friday|GEU-myoh-eel|
+토요일|toyoil|Saturday|TOH-yoh-eel|
+일요일|iryoil|Sunday|EE-ryoh-eel|
+@body 🩺 Body & health
+머리|meori|head|MUH-ree|
+배|bae|stomach|BEH|Also means boat/pear
+이|i|tooth|EE|Also 이빨 (casual)
+열|yeol|fever|YUHL|
+약|yak|medicine|YAHK|
+감기|gamgi|a cold|GAHM-gee|
+의사|uisa|doctor|EUI-sah|
+구급차|gugeupcha|ambulance|GOO-geup-chah|Call 119
+알레르기|allereugi|allergy|AHL-leh-reu-gee|
+손|son|hand|SOHN|
+발|bal|foot|BAHL|
+*숙취|sukchwi|hangover|SOOK-chwee|
+@weather ☂️ Weather & things
+날씨|nalssi|weather|NAHL-ssee|
+비|bi|rain|BEE|
+눈|nun|snow / eye|NOON|
+우산|usan|umbrella|OO-sahn|
+*핸드폰|haendeupon|cell phone|HEN-deu-pohn|
+*충전기|chungjeongi|charger|CHOONG-juhn-gee|
+지도|jido|map|JEE-doh|
+*사진|sajin|photo|SAH-jeen|
+쓰레기통|sseuregitong|trash can|SSEU-reh-gee-tohng|
+*한복|hanbok|hanbok|HAHN-bohk|Wearing one = free palace entry
+*신분증|sinbunjeung|ID card|SHEEN-boon-jeung|
+*입장료|ipjangnyo|entrance / cover charge|EEP-jahng-nyoh|
