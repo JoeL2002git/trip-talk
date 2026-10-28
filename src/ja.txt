@@ -1,0 +1,150 @@
+@int greetings
+お久しぶりです|o-hisashiburi desu|Long time no see|Polite.|oh-hee-sah-shee-boo-ree dess
+お元気でしたか|o-genki deshita ka|Have you been well?|Past tense of お元気ですか.|oh-gehn-kee deh-shtah kah
+おかげさまで元気です|okagesama de genki desu|I'm well, thank you|Set humble reply.|oh-kah-geh-sah-mah deh gehn-kee dess
+手伝ってくれてありがとうございます|tetsudatte kurete arigatō gozaimasu|Thank you for helping me|〜てくれて gives the reason for thanks.|teh-tsoo-daht-teh koo-reh-teh ah-ree-gah-TOH goh-zai-mahss
+遅れてすみません|okurete sumimasen|Sorry I'm late|て-form + すみません = sorry for…|oh-koo-reh-teh soo-mee-mah-sehn
+また来ます|mata kimasu|I'll come again|Nice when leaving a shop.|mah-tah kee-mahss
+お先に失礼します|o-saki ni shitsurei shimasu|Excuse me for leaving first|Polite when leaving before others.|oh-sah-kee nee shee-tsoo-RAY shee-mahss
+お気をつけて|o-ki o tsukete|Take care (on your way)|Common send-off.|oh-kee oh tsoo-keh-teh
+@int numbers
+コーヒーを二つください|kōhī o futatsu kudasai|Two coffees, please|〜つ = general native counter (1–9).|KOH-HEE oh foo-tah-tsoo koo-dah-sai
+切符を三枚ください|kippu o sanmai kudasai|Three tickets, please|枚 = flat things.|keep-poo oh sahn-mai koo-dah-sai
+ビールを二本ください|bīru o nihon kudasai|Two bottles of beer, please|本 = long things/bottles (1 ippon, 3 sanbon).|BEE-roo oh nee-hohn koo-dah-sai
+三人です|sannin desu|Three people|1 hitori, 2 futari, then 〜nin.|sahn-neen dess
+五時半に会いましょう|goji han ni aimashō|Let's meet at 5:30|半 = half past.|goh-jee hahn nee ai-mah-SHOH
+二千五百円です|nisen gohyaku en desu|It's 2,500 yen||nee-sehn goh-hyah-koo ehn dess
+二泊します|nihaku shimasu|I'll stay two nights|泊 = nights (1 ippaku, 3 sanpaku).|nee-hah-koo shee-mahss
+三番線|sanbansen|Platform (track) 3|番線 = track number.|sahm-bahn-sehn
+何名様ですか|nanmei-sama desu ka|How many in your party?|🎧 Staff asks; reply 二人です etc.|nahn-may-sah-mah dess kah
+@int food
+一番人気のメニューは何ですか|ichiban ninki no menyū wa nan desu ka|What's the most popular dish?||ee-chee-bahn neen-kee noh meh-NYOO wah nahn dess kah
+そばアレルギーがあるんですが、これは大丈夫ですか|soba arerugī ga aru n desu ga, kore wa daijōbu desu ka|I have a buckwheat allergy. Is this OK?|〜んですが softly explains background.|soh-bah ah-reh-roo-GEE gah ah-roon dess gah, koh-reh wah dai-JOH-boo dess kah
+これは辛いですか|kore wa karai desu ka|Is this spicy?||koh-reh wah kah-rai dess kah
+わさび抜きでお願いします|wasabi nuki de onegai shimasu|No wasabi, please|〜抜き = without.|wah-sah-bee noo-kee deh oh-neh-gai shee-mahss
+注文したものがまだ来ていません|chūmon shita mono ga mada kite imasen|What I ordered hasn't come yet||CHOO-mohn shtah moh-noh gah mah-dah kee-teh ee-mah-sehn
+別々に払えますか|betsubetsu ni haraemasu ka|Can we pay separately?||beh-tsoo-beh-tsoo nee hah-rah-eh-mahss kah
+おかわりできますか|okawari dekimasu ka|Can I get a refill / seconds?||oh-kah-wah-ree deh-kee-mahss kah
+予約は必要ですか|yoyaku wa hitsuyō desu ka|Is a reservation needed?||yoh-yah-koo wah hee-tsoo-YOH dess kah
+食券を先に買ってください|shokken o saki ni katte kudasai|Please buy a meal ticket first|🎧 At ramen/udon shops with ticket machines.|shohk-kehn oh sah-kee nee kaht-teh koo-dah-sai
+@int transit
+新宿駅までどうやって行けばいいですか|Shinjuku-eki made dō yatte ikeba ii desu ka|How do I get to Shinjuku Station?|〜ばいいですか = what should I do?|sheen-joo-koo eh-kee mah-deh DOH yaht-teh ee-keh-bah EE dess kah
+ここから歩いて何分ぐらいですか|koko kara aruite nanpun gurai desu ka|About how many minutes on foot from here?||koh-koh kah-rah ah-roo-ee-teh nahm-poon goo-rai dess kah
+何番線に乗ればいいですか|nanbansen ni noreba ii desu ka|Which platform should I take?||nahm-bahn-sehn nee noh-reh-bah EE dess kah
+どこで乗り換えればいいですか|doko de norikaereba ii desu ka|Where should I transfer?||doh-koh deh noh-ree-kah-eh-reh-bah EE dess kah
+このバスは空港に行きますか|kono basu wa kūkō ni ikimasu ka|Does this bus go to the airport?||koh-noh bah-soo wah KOO-KOH nee ee-kee-mahss kah
+次で降ります|tsugi de orimasu|I'm getting off at the next stop||tsoo-gee deh oh-ree-mahss
+Suicaにチャージしたいです|Suika ni chāji shitai desu|I'd like to top up my Suica|〜たい = want to.|soo-ee-kah nee CHAH-jee shtai dess
+ここで止めてください|koko de tomete kudasai|Please stop here (taxi)||koh-koh deh toh-meh-teh koo-dah-sai
+電車を乗り間違えました|densha o norimachigaemashita|I got on the wrong train||dehn-shah oh noh-ree-mah-chee-gah-eh-mahsh-tah
+@int emergency
+パスポートをなくしました|pasupōto o nakushimashita|I lost my passport||pah-soo-POH-toh oh nah-koo-shee-mahsh-tah
+かばんを盗まれました|kaban o nusumaremashita|My bag was stolen|Passive 〜られました.|kah-bahn oh noo-soo-mah-reh-mahsh-tah
+熱があって、頭が痛いです|netsu ga atte, atama ga itai desu|I have a fever and a headache|て-form links two facts.|neh-tsoo gah aht-teh, ah-tah-mah gah ee-tai dess
+昨日からお腹が痛いです|kinō kara onaka ga itai desu|My stomach has hurt since yesterday||kee-NOH kah-rah oh-nah-kah gah ee-tai dess
+この薬は一日何回飲みますか|kono kusuri wa ichinichi nankai nomimasu ka|How many times a day do I take this?|Medicine is "drunk" (飲む).|koh-noh koo-soo-ree wah ee-chee-nee-chee nahn-kai noh-mee-mahss kah
+足をけがしました|ashi o kega shimashita|I hurt my leg/foot||ah-shee oh keh-gah shee-mahsh-tah
+事故がありました|jiko ga arimashita|There's been an accident||jee-koh gah ah-ree-mahsh-tah
+近くに病院はありますか|chikaku ni byōin wa arimasu ka|Is there a hospital nearby?|Japan: 119 ambulance/fire, 110 police.|chee-kah-koo nee BYOH-een wah ah-ree-mahss kah
+@int shopping
+ほかの色はありますか|hoka no iro wa arimasu ka|Do you have other colors?||hoh-kah noh ee-roh wah ah-ree-mahss kah
+もう少し小さいサイズはありますか|mō sukoshi chiisai saizu wa arimasu ka|Do you have a slightly smaller size?||MOH soo-koh-shee CHEE-sai sai-zoo wah ah-ree-mahss kah
+着てみたら、ちょっと大きかったです|kite mitara, chotto ōkikatta desu|I tried it on and it was a bit big|〜てみる = try doing.|kee-teh mee-tah-rah, choht-toh OH-kee-kaht-tah dess
+これを返品できますか|kore o henpin dekimasu ka|Can I return this?||koh-reh oh hehm-peen deh-kee-mahss kah
+プレゼント用に包んでもらえますか|purezento-yō ni tsutsunde moraemasu ka|Could you gift-wrap it?|〜てもらえますか = could you…?|poo-reh-zehn-toh YOH nee tsoo-tsoon-deh moh-rah-eh-mahss kah
+カードで払います|kādo de haraimasu|I'll pay by card||KAH-doh deh hah-rai-mahss
+パスポートが必要ですか|pasupōto ga hitsuyō desu ka|Do you need my passport?|Required for tax-free shopping.|pah-soo-POH-toh gah hee-tsoo-YOH dess kah
+新しいのはありますか|atarashii no wa arimasu ka|Do you have a new one (not the display)?||ah-tah-rah-SHEE noh wah ah-ree-mahss kah
+@int hotel
+部屋が寒いです。暖房がつきません|heya ga samui desu. danbō ga tsukimasen|The room is cold. The heater won't turn on||heh-yah gah sah-moo-ee dess. dahn-BOH gah tsoo-kee-mah-sehn
+お湯が出ません|o-yu ga demasen|There's no hot water||oh-yoo gah deh-mah-sehn
+部屋を変えてもらえますか|heya o kaete moraemasu ka|Could I change rooms?||heh-yah oh kah-eh-teh moh-rah-eh-mahss kah
+レイトチェックアウトはできますか|reito chekkuauto wa dekimasu ka|Is late checkout possible?||ray-toh chehk-koo-ow-toh wah deh-kee-mahss kah
+鍵を部屋に置いたまま出てしまいました|kagi o heya ni oita mama dete shimaimashita|I left my key in the room and got locked out|〜てしまう = ended up (regret).|kah-gee oh heh-yah nee oy-tah mah-mah deh-teh shee-mai-mahsh-tah
+隣の部屋がうるさいです|tonari no heya ga urusai desu|The room next door is noisy||toh-nah-ree noh heh-yah gah oo-roo-sai dess
+タクシーを呼んでもらえますか|takushī o yonde moraemasu ka|Could you call me a taxi?||tahk-SHEE oh yohn-deh moh-rah-eh-mahss kah
+近くにコンビニはありますか|chikaku ni konbini wa arimasu ka|Is there a convenience store nearby?||chee-kah-koo nee kohm-bee-nee wah ah-ree-mahss kah
+@int smalltalk
+日本は初めてです|Nihon wa hajimete desu|It's my first time in Japan||nee-hohn wah hah-jee-meh-teh dess
+一週間旅行する予定です|isshūkan ryokō suru yotei desu|I plan to travel for a week|予定 = plan.|ees-SHOO-kahn RYOH-koh soo-roo yoh-tay dess
+昨日、浅草に行きました。とても楽しかったです|kinō, Asakusa ni ikimashita. totemo tanoshikatta desu|Yesterday I went to Asakusa. It was really fun|Past tense of verbs and adjectives.|kee-NOH, ah-sah-koo-sah nee ee-kee-mahsh-tah. toh-teh-moh tah-noh-shee-kaht-tah dess
+日本料理が大好きです|Nihon ryōri ga daisuki desu|I love Japanese food||nee-hohn RYOH-ree gah dai-soo-kee dess
+このあたりでおすすめの場所はありますか|kono atari de osusume no basho wa arimasu ka|Any places you recommend around here?||koh-noh ah-tah-ree deh oh-soo-soo-meh noh bah-shoh wah ah-ree-mahss kah
+日本語を勉強しています|nihongo o benkyō shite imasu|I'm studying Japanese|〜ています = -ing.|nee-hohn-goh oh behn-KYOH shteh ee-mahss
+お仕事は何をされていますか|o-shigoto wa nani o sarete imasu ka|What do you do for work?|Respectful phrasing.|oh-shee-goh-toh wah nah-nee oh sah-reh-teh ee-mahss kah
+写真を撮ってもらえますか|shashin o totte moraemasu ka|Could you take a photo for us?||shah-sheen oh toht-teh moh-rah-eh-mahss kah
+@adv greetings
+ありがとう / ありがとうございます|arigatō / arigatō gozaimasu|Thanks (casual) / Thank you (polite)|Casual form only with friends.|ah-ree-gah-TOH / ah-ree-gah-TOH goh-zai-mahss
+ごめん / 申し訳ございません|gomen / mōshiwake gozaimasen|Sorry (casual) / I sincerely apologize (very formal)|You'll hear the formal one from staff.|goh-mehn / MOH-shee-wah-keh goh-zai-mah-sehn
+いらっしゃいませ|irasshaimase|Welcome (staff greeting)|🎧 Called out as you enter; no reply needed.|ee-rahs-shai-mah-seh
+かしこまりました|kashikomarimashita|Certainly (staff)|🎧 Humble "understood".|kah-shee-koh-mah-ree-mahsh-tah
+少々お待ちください|shōshō o-machi kudasai|Please wait a moment|🎧 Honorific お〜ください.|SHOH-SHOH oh-mah-chee koo-dah-sai
+お疲れ様です|otsukaresama desu|Thanks for your hard work|Greeting among coworkers; you'll hear it often.|oh-tsoo-kah-reh-sah-mah dess
+元気？ / お元気ですか|genki? / o-genki desu ka|How are you? (casual / polite)||gehn-kee? / oh-gehn-kee dess kah
+じゃあね / 失礼します|jā ne / shitsurei shimasu|See ya (casual) / Goodbye (formal)||JAH neh / shee-tsoo-RAY shee-mahss
+@adv numbers
+おいくつですか|o-ikutsu desu ka|How old are you? (polite)|Asking age is a bit personal.|oh-ee-koo-tsoo dess kah
+二十五歳です|nijūgo-sai desu|I'm 25|Age 20 is 二十歳 (hatachi).|nee-JOO-goh sai dess
+お会計、三千二百円になります|o-kaikei, sanzen nihyaku en ni narimasu|Your total is 3,200 yen|🎧 Staff use 〜になります for prices.|oh-kai-KAY, sahn-zehn nee-hyah-koo ehn nee nah-ree-mahss
+一万円からお預かりします|ichiman en kara o-azukari shimasu|Out of 10,000 yen|🎧 Cashier repeats what you handed over.|ee-chee-mahn ehn kah-rah oh-ah-zoo-kah-ree shee-mahss
+六千八百円のお返しです|rokusen happyaku en no o-kaeshi desu|Here's 6,800 yen change|🎧 Note 六千 rokusen, 八百 happyaku.|roh-koo-sehn hahp-pyah-koo ehn noh oh-kah-eh-shee dess
+ポイントカードはお持ちですか|pointo kādo wa o-mochi desu ka|Do you have a point card?|🎧 Answer いいえ.|poyn-toh KAH-doh wah oh-moh-chee dess kah
+袋はご利用ですか|fukuro wa go-riyō desu ka|Will you need a bag?|🎧 Bags often cost a few yen.|foo-koo-roh wah goh-ree-YOH dess kah
+温めますか|atatamemasu ka|Shall I heat this up?|🎧 Convenience store staff, for bento.|ah-tah-tah-meh-mahss kah
+三階 / 地下一階|sangai / chika ikkai|3rd floor / basement 1|Note 三階 = sangai, 一階 = ikkai.|sahn-gai / chee-kah eek-kai
+@adv food
+店内でお召し上がりですか|tennai de o-meshiagari desu ka|Will you eat in?|🎧 召し上がる = honorific "eat". Reply 持ち帰りで for to-go.|tehn-nai deh oh-meh-shee-ah-gah-ree dess kah
+ご注文はお決まりですか|go-chūmon wa o-kimari desu ka|Have you decided on your order?|🎧 Staff.|goh-CHOO-mohn wah oh-kee-mah-ree dess kah
+お腹すいた / お腹がすきました|onaka suita / onaka ga sukimashita|I'm hungry (casual / polite)||oh-nah-kah soo-ee-tah / oh-nah-kah gah soo-kee-mahsh-tah
+うまい！|umai!|Delicious! (casual)|Casual, more common among men; おいしい is safe for everyone.|oo-mai!
+お腹いっぱいです|onaka ippai desu|I'm full||oh-nah-kah eep-pai dess
+すみません、お冷ください|sumimasen, o-hiya kudasai|Excuse me, some water please|お冷 = restaurant word for cold water.|soo-mee-mah-sehn, oh-hee-yah koo-dah-sai
+ラストオーダーになります|rasuto ōdā ni narimasu|It's last orders|🎧 Staff.|rah-soo-toh OH-DAH nee nah-ree-mahss
+乾杯！|kanpai!|Cheers!||kahm-pai!
+今日は私がおごります|kyō wa watashi ga ogorimasu|Today's on me|おごる = to treat.|KYOH wah wah-tah-shee gah oh-goh-ree-mahss
+@adv transit
+まもなく、渋谷です|mamonaku, Shibuya desu|Arriving shortly at Shibuya|🎧 Train announcement.|mah-moh-nah-koo, shee-boo-yah dess
+お出口は右側です|o-deguchi wa migigawa desu|The exit is on the right side|🎧 Doors open on the right.|oh-deh-goo-chee wah mee-gee-gah-wah dess
+白線の内側までお下がりください|hakusen no uchigawa made o-sagari kudasai|Please stand behind the white line|🎧 Platform announcement.|hah-koo-sehn noh oo-chee-gah-wah mah-deh oh-sah-gah-ree koo-dah-sai
+どちらまで？|dochira made?|Where to?|🎧 Taxi driver.|doh-chee-rah mah-deh?
+道が混んでいますね|michi ga konde imasu ne|The roads are crowded, aren't they|〜ね invites agreement.|mee-chee gah kohn-deh ee-mahss neh
+降ります！|orimasu!|Getting off!|Say it on a packed train to get through.|oh-ree-mahss!
+終電は何時ですか|shūden wa nanji desu ka|What time is the last train?||SHOO-dehn wah nahn-jee dess kah
+人身事故で遅れています|jinshin jiko de okurete imasu|Delayed due to an accident involving a person|🎧 Common delay announcement.|jeen-sheen jee-koh deh oh-koo-reh-teh ee-mahss
+@adv emergency
+救急車を呼んでもらえますか|kyūkyūsha o yonde moraemasu ka|Could you call an ambulance for me?|〜てもらえますか is a polite request. 119 = ambulance.|KYOO-KYOO-shah oh yohn-deh moh-rah-eh-mahss kah
+どうしましたか|dō shimashita ka|What's wrong?|🎧 Doctor or police.|DOH shee-mahsh-tah kah
+いつからですか|itsu kara desu ka|Since when?|🎧 Doctor.|ee-tsoo kah-rah dess kah
+処方箋はありますか|shohōsen wa arimasu ka|Do you have a prescription?|🎧 Pharmacist.|shoh-HOH-sehn wah ah-ree-mahss kah
+食後に飲んでください|shokugo ni nonde kudasai|Take it after meals|🎧 Dosage instruction.|shoh-koo-goh nee nohn-deh koo-dah-sai
+息が苦しいです|iki ga kurushii desu|It's hard to breathe||ee-kee gah koo-roo-SHEE dess
+忘れ物センターはどこですか|wasuremono sentā wa doko desu ka|Where's the lost and found?|忘れ物 = lost/forgotten items.|wah-soo-reh-moh-noh sehn-TAH wah doh-koh dess kah
+やめて！ / やめてください|yamete! / yamete kudasai|Stop it! (casual) / Please stop||yah-meh-teh! / yah-meh-teh koo-dah-sai
+@adv shopping
+何かお探しですか|nanika o-sagashi desu ka|Looking for something?|🎧 Reply 見ているだけです.|nah-nee-kah oh-sah-gah-shee dess kah
+ご試着されますか|go-shichaku saremasu ka|Would you like to try it on?|🎧 Staff.|goh-shee-chah-koo sah-reh-mahss kah
+お支払いはいかがなさいますか|o-shiharai wa ikaga nasaimasu ka|How would you like to pay?|🎧 Very polite.|oh-shee-hah-rai wah ee-kah-gah nah-sai-mahss kah
+一括でよろしいですか|ikkatsu de yoroshii desu ka|Single payment OK?|🎧 Card payment; answer はい.|eek-kah-tsoo deh yoh-roh-SHEE dess kah
+めっちゃかわいい！|metcha kawaii!|Super cute!|Casual slang (originally Kansai).|meht-chah kah-wah-EE!
+思ったより高いですね|omotta yori takai desu ne|Pricier than I thought||oh-moht-tah yoh-ree tah-kai dess neh
+ちょっと考えます|chotto kangaemasu|I'll think about it|Polite way to leave without buying.|choht-toh kahn-gah-eh-mahss
+ただいま品切れです|tadaima shinagire desu|It's currently sold out|🎧 Staff.|tah-dai-mah shee-nah-gee-reh dess
+@adv hotel
+お名前を頂戴できますか|o-namae o chōdai dekimasu ka|May I have your name?|🎧 Very polite, humble phrasing.|oh-nah-mah-eh oh CHOH-dai deh-kee-mahss kah
+パスポートを拝見してもよろしいですか|pasupōto o haiken shite mo yoroshii desu ka|May I see your passport?|🎧 拝見 = humble "see".|pah-soo-POH-toh oh hai-kehn shteh moh yoh-roh-SHEE dess kah
+朝食は付いていますか|chōshoku wa tsuite imasu ka|Is breakfast included?||CHOH-shoh-koo wah tsoo-ee-teh ee-mahss kah
+ごゆっくりどうぞ|go-yukkuri dōzo|Please take your time / enjoy|🎧 Staff.|goh-yook-koo-ree DOH-zoh
+何かございましたらお申し付けください|nanika gozaimashitara o-mōshitsuke kudasai|Let us know if you need anything|🎧 Keigo.|nah-nee-kah goh-zai-mahsh-tah-rah oh-MOH-shee-tsoo-keh koo-dah-sai
+ご予約が確認できないのですが|go-yoyaku ga kakunin dekinai no desu ga|We can't find your reservation…|🎧 Trailing が signals a problem.|goh-yoh-yah-koo gah kah-koo-neen deh-kee-nai noh dess gah
+こちらが予約確認書です|kochira ga yoyaku kakuninsho desu|Here's my booking confirmation||koh-chee-rah gah yoh-yah-koo kah-koo-neen-shoh dess
+お荷物をお持ちします|o-nimotsu o o-mochi shimasu|I'll carry your luggage|🎧 Humble お〜します.|oh-nee-moh-tsoo oh oh-moh-chee shee-mahss
+@adv smalltalk
+日本語がお上手ですね|nihongo ga o-jōzu desu ne|Your Japanese is very good|🎧 You'll hear this often.|nee-hohn-goh gah oh-JOH-zoo dess neh
+いえいえ、まだまだです|ie ie, madamada desu|Oh no, I still have a long way to go|Modest reply to a compliment.|ee-eh ee-eh, mah-dah-mah-dah dess
+マジで？|maji de?|Seriously?|Casual slang.|mah-jee deh?
+本当ですか / ほんと？|hontō desu ka / honto?|Really? (polite / casual)||hohn-TOH dess kah / hohn-toh?
+そうですね / そうだね|sō desu ne / sō da ne|That's right (polite / casual)||SOH dess neh / SOH dah neh
+すごい！|sugoi!|Amazing!||soo-goy!
+どちらからいらっしゃいましたか|dochira kara irasshaimashita ka|Where are you from?|🎧 Honorific いらっしゃる.|doh-chee-rah kah-rah ee-rahs-shai-mahsh-tah kah
+何してる？ / 何をしていますか|nani shiteru? / nani o shite imasu ka|What are you doing? (casual / polite)||nah-nee shteh-roo? / nah-nee oh shteh ee-mahss kah
+また今度ご飯でも行きましょう|mata kondo gohan demo ikimashō|Let's grab a meal sometime|Often a pleasantry, not a firm plan.|mah-tah kohn-doh goh-hahn deh-moh ee-kee-mah-SHOH
