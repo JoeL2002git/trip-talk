@@ -1,5 +1,10 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Trip Talk JP/KR</title><link rel="stylesheet" href="style.css"></head><body>
+<title>Trip Talk JP/KR</title><link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#58cc02">
+<link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Trip Talk"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head><body>
 <header><div id="langs"><button data-l="ja">🇯🇵 日本語</button><button data-l="ko">🇰🇷 한국어</button></div>
 <div id="stats"></div></header><main id="app"></main>
-<script src="data.js"></script><script src="app.js"></script></body></html>
+<script src="data.js"></script><script src="app.js"></script>
+<script>if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js");</script></body></html>
