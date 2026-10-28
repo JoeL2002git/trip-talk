@@ -28,7 +28,7 @@ const weak=()=>items().filter(i=>{const s=S.srs[i.id];return s&&s.wrong>0&&s.wro
 function ring(p){const r=16,c=2*Math.PI*r;return`<svg class="ring" viewBox="0 0 38 38"><circle class="bg" cx="19" cy="19" r="${r}"/><circle class="fg" cx="19" cy="19" r="${r}" stroke-dasharray="${c}" stroke-dashoffset="${c*(1-p)}"/><text x="19" y="19">${Math.round(p*100)}</text></svg>`;}
 function home(){const w=weak().length,all=items(),due=all.filter(i=>st(i.id).due<=Date.now()).length;save();
  const ja=S.lang==="ja";
- view(`<div class="hero"><span class="big">${ja?"🌸":"🌊"}</span><b>${ja?"こんにちは, Joe!":"안녕하세요, Joe!"}</b><p>${due} cards ready to review · trip starts Nov 22</p></div>
+ view(`<div class="hero"><span class="big">${ja?"🌸":"🌊"}</span><button class="gear" id="set" aria-label="Settings">⚙️</button><b id="hi">${ja?"こんにちは":"안녕하세요"}${S.name?", "+esc(S.name):""}!</b><p>${due} cards ready to review${trip()}</p></div>
  <div class="grid">`+Object.entries(TOPICS).map(([k,v])=>{const its=items(k),l=its.filter(i=>(S.srs[i.id]||{}).box>=2).length;
  return`<button class="tile" data-t="${k}">${ring(l/its.length)}<span class="em">${EMOJI[k]}</span><span><div class="nm">${v}</div><div class="ct">${l}/${its.length} learned</div></span></button>`}).join("")+
  `<button class="tile wide" data-t=""><span class="em">🎲</span><span><div class="nm">All topics mixed</div><div class="ct">${all.length} phrases</div></span></button>`+
@@ -76,3 +76,12 @@ function quiz(p,mode){if(p.length<2){alert("Not enough items yet");return;}const
   $("#nx").onclick=()=>{n++;next()};};next();}
 document.querySelectorAll("#langs button").forEach(b=>b.onclick=()=>{S.lang=b.dataset.l;save();stats();home();});
 stats();home();
+
+function trip(){if(!S.trip)return"";const d=Math.ceil((new Date(S.trip+"T00:00:00")-new Date(today()+"T00:00:00"))/864e5);return d>0?` · trip in ${d} day${d==1?"":"s"}`:d==0?" · trip starts today! ✈️":"";}
+function sheet(first){const m=document.createElement("div");m.className="modal";m.innerHTML=`<div class="mbox" role="dialog" aria-modal="true"><div class="wave">👋</div><h2>${first?"Welcome to TripTalk!":"Settings"}</h2><label>What should we call you?<input id="nm" maxlength="30" autocomplete="given-name" placeholder="Your name" value="${esc(S.name||"")}"></label>${first?"":`<label>Trip date (optional)<input id="td" type="date" value="${S.trip||""}"></label>`}<button class="btn pri" id="sv">${first?"Let's go":"Save"}</button><button class="btn ghost" id="sk">${first?"Skip":"Cancel"}</button></div>`;document.body.appendChild(m);const nm=m.querySelector("#nm");setTimeout(()=>nm.focus(),50);
+const close=()=>{m.remove();home();};
+m.querySelector("#sv").onclick=()=>{S.name=nm.value.trim();const td=m.querySelector("#td");if(td)S.trip=td.value;save();close();};
+nm.onkeydown=e=>{if(e.key==="Enter")m.querySelector("#sv").click();};
+m.querySelector("#sk").onclick=()=>{if(S.name===undefined)S.name="";save();close();};}
+document.addEventListener("click",e=>{if(e.target.closest("#set,#hi"))sheet(false);});
+if(S.name===undefined)setTimeout(()=>sheet(true),300);

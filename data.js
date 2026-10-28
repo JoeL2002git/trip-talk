@@ -92,7 +92,7 @@ hotel:[
 ["タオルをもう一枚ください","taoru o mō ichimai kudasai","One more towel, please",""],
 ["エアコンが動きません","eakon ga ugokimasen","The AC isn't working",""]],
 smalltalk:[
-["私はジョーです","watashi wa Jō desu","I'm Joe",""],
+["私は〇〇です","watashi wa ___ desu","I'm ___ (say your name)","Put your name in the blank."],
 ["アメリカから来ました","amerika kara kimashita","I'm from the US",""],
 ["日本語は少しだけです","nihongo wa sukoshi dake desu","Only a little Japanese",""],
 ["もう一度お願いします","mō ichido onegai shimasu","Once more, please",""],
@@ -194,7 +194,7 @@ hotel:[
 ["수건 더 주세요","sugeon deo juseyo","More towels, please",""],
 ["에어컨이 안 돼요","eeokeoni an dwaeyo","The AC doesn't work",""]],
 smalltalk:[
-["저는 조예요","jeoneun Joyeyo","I'm Joe",""],
+["저는 ○○예요/이에요","jeoneun ___-yeyo / -ieyo","I'm ___ (say your name)","Use 예요 after a vowel-ending name, 이에요 after a consonant."],
 ["미국에서 왔어요","migugeseo wasseoyo","I'm from the US",""],
 ["한국어 조금 해요","hangugeo jogeum haeyo","I speak a little Korean",""],
 ["다시 말해 주세요","dasi malhae juseyo","Please say it again",""],
