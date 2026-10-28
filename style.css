@@ -61,3 +61,11 @@ input{width:100%;font-family:inherit;font-weight:600;font-size:20px;padding:16px
 .mbox input{display:block;width:100%;box-sizing:border-box;margin-top:6px;padding:12px;border-radius:14px;border:2px solid rgba(128,128,128,.3);font:inherit;font-size:17px;background:transparent;color:inherit}
 .mbox .btn{width:100%;margin-top:8px}.btn.ghost{background:transparent;box-shadow:none;color:inherit;opacity:.7}
 @keyframes fadein{from{opacity:0}}
+
+.rom{font-weight:800;font-size:20px;color:var(--acc)}.rom.big{font-size:30px;line-height:1.2;margin:6px 0}
+.pr{font-size:15px;color:var(--mute);font-style:italic;margin:2px 0 6px}.nat.sm{font-size:20px;opacity:.8;margin-top:4px}
+.optp{display:flex;flex-direction:column;align-items:flex-start;gap:1px;text-align:left}.optp .on{font-size:20px}.optp .on.sm{font-size:15px;opacity:.75}.orom{font-size:17px;color:var(--acc)}.opr{font-size:13px;color:var(--mute);font-style:italic;font-weight:500}
+.fbp .nat{font-size:22px;margin:0}.fbp .rom{font-size:18px}.fbp .rom.big{font-size:22px}.fbp .pr{margin:0}
+.hint.tiny{font-size:12px;margin:6px 2px}
+.mbox label.chk{display:flex;align-items:center;gap:10px;font-weight:600}.mbox label.chk input{width:22px;height:22px;margin:0;flex:none}.mbox small{font-weight:400;opacity:.7}
+.listc .r>div{flex:1}

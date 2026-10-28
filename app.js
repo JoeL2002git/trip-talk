@@ -8,7 +8,7 @@ function addXP(n){S.xp+=n;bumpStreak();save();stats();}
 function stats(){$("#xp").textContent=S.xp;$("#streak").textContent=S.streak;document.body.className=S.lang;
  document.querySelectorAll("#langs button").forEach(b=>b.classList.toggle("on",b.dataset.l===S.lang));
  const m=document.querySelector('meta[name=theme-color]');if(m)m.content=S.lang==="ja"?"#e8506e":"#1677c9";}
-const items=(topic)=>(topic?[topic]:Object.keys(TOPICS)).flatMap(t=>DATA[S.lang][t].map((a,i)=>({id:`${S.lang}:${t}:${i}`,nat:a[0],rom:a[1],en:a[2],note:a[3],t})));
+const items=(topic)=>(topic?[topic]:Object.keys(TOPICS)).flatMap(t=>DATA[S.lang][t].map((a,i)=>({id:`${S.lang}:${t}:${i}`,nat:a[0],rom:a[1],en:a[2],note:a[3],pr:(PRON[S.lang]||{})[a[0]]||"",t})));
 const st=id=>S.srs[id]||(S.srs[id]={box:0,due:0,wrong:0,right:0});
 const BOX=[0,1,3,7,14,30];
 function grade(it,ok){const s=st(it.id);if(ok){s.box=Math.min(5,s.box+1);s.right++;}else{s.box=0;s.wrong++;}s.due=Date.now()+BOX[s.box]*864e5+(ok?0:6e4);addXP(ok?10:2);}
@@ -44,17 +44,20 @@ function menu(t,isWeak){const pool=()=>isWeak?weak():items(t||null);const name=i
  <button class="btn ghost" id="b">← Back to topics</button>`);
  $("#f").onclick=()=>flash_(pool());$("#m").onclick=()=>quiz(pool(),"mc");$("#y").onclick=()=>quiz(pool(),"type");$("#l").onclick=()=>list(pool());$("#b").onclick=home;}
 const natCls=s=>s.length>12?"nat s":"nat";
-function cardHTML(i,show){return`<div class="card"><div class="${natCls(i.nat)}">${esc(i.nat)}</div><button class="spk" data-say aria-label="Play audio">🔊</button>${show?`<div class="rom">${esc(i.rom)}</div><div class="en">${esc(i.en)}</div><div class="note">${esc(i.note)}</div>`:""}</div>`;}
+const showNat=()=>S.showNat!==false;
+function phr(i){const nat=showNat()?`<div class="${natCls(i.nat)}${S.easy?" sm":""}">${esc(i.nat)}</div>`:"";const big=S.easy||!showNat();
+ const rom=`<div class="rom${big?" big":""}">${esc(i.rom)}</div>`,pr=i.pr?`<div class="pr">🗣️ ${esc(i.pr)}</div>`:"";return S.easy?rom+pr+nat:nat+rom+pr;}
+function cardHTML(i,show){return`<div class="card">${phr(i)}<button class="spk" data-say aria-label="Play audio">🔊</button>${show?`<div class="en">${esc(i.en)}</div><div class="note">${esc(i.note)}</div>`:""}</div>`;}
 function bindSay(i){app.querySelectorAll("[data-say]").forEach(b=>b.onclick=e=>{e.stopPropagation();speak(i.nat)});}
 const lhead=(n,t)=>`<div class="lhead"><button class="x" id="b" aria-label="Close">✕</button><div class="bar"><i style="width:${n/t*100}%"></i></div></div>`;
-function list(p){view(`<h2>📖 Phrases</h2>`+p.map((i,k)=>`<div class="card listc"><div class="r"><div class="${natCls(i.nat)}">${esc(i.nat)}</div><button class="spk" data-k="${k}">🔊</button></div><div class="rom">${esc(i.rom)}</div><div class="en">${esc(i.en)}</div>${i.note?`<div class="note">${esc(i.note)}</div>`:""}</div>`).join("")+`<button class="btn ghost" id="b">← Back to topics</button>`);
+function list(p){view(`<h2>📖 Phrases</h2>`+p.map((i,k)=>`<div class="card listc"><div class="r"><div>${phr(i)}</div><button class="spk" data-k="${k}">🔊</button></div><div class="en">${esc(i.en)}</div>${i.note?`<div class="note">${esc(i.note)}</div>`:""}</div>`).join("")+`<button class="btn ghost" id="b">← Back to topics</button>`);
  app.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>speak(p[+b.dataset.k].nat));$("#b").onclick=home;}
 function done_(title,sub){confetti(40);buzz([30,40,30]);view(`<div class="card result"><div class="big">🎉</div><h2>${title}</h2><p class="hint">${sub}</p></div><button class="btn pri" id="b">Back to topics</button>`);$("#b").onclick=home;}
 function flash_(p){const now=Date.now();let q=p.filter(i=>st(i.id).due<=now).sort((a,b)=>st(a.id).box-st(b.id).box).slice(0,15);save();
  if(!q.length){view(`<div class="card result"><div class="big">✨</div><h2>All caught up!</h2><p class="hint">Nothing due here. Try a quiz.</p></div><button class="btn pri" id="b">Back to topics</button>`);$("#b").onclick=home;return;}
  let n=0,tot=q.length;const show=()=>{const i=q[n];
-  view(lhead(n,tot)+`<div class="flip" id="fl"><div class="in"><div class="face card"><div class="${natCls(i.nat)}">${esc(i.nat)}</div><button class="spk" data-say>🔊</button><div class="hint">Tap card to flip</div></div>
-  <div class="face back card"><div class="${natCls(i.nat)}">${esc(i.nat)}</div><div class="rom">${esc(i.rom)}</div><div class="en">${esc(i.en)}</div><div class="note">${esc(i.note)}</div><button class="spk" data-say>🔊</button></div></div></div>
+  view(lhead(n,tot)+`<div class="flip" id="fl"><div class="in"><div class="face card">${phr(i)}<button class="spk" data-say>🔊</button><div class="hint">Tap card to flip</div></div>
+  <div class="face back card">${phr(i)}<div class="en">${esc(i.en)}</div><div class="note">${esc(i.note)}</div><button class="spk" data-say>🔊</button></div></div></div>
   <div id="ctl"><button class="btn pri" id="rv">Show answer</button></div><p class="hint" style="text-align:center">Card ${n+1} of ${q.length} · box ${st(i.id).box}</p>`);
   bindSay(i);$("#b").onclick=home;speak(i.nat);
   const rev=()=>{if($("#fl").classList.contains("r"))return;$("#fl").classList.add("r");$("#ctl").innerHTML=`<div class="row"><button class="btn" id="no" style="color:var(--bad)">↺ Again</button><button class="btn pri" id="yes">✓ Got it</button></div>`;
@@ -66,22 +69,23 @@ function quiz(p,mode){if(p.length<2){alert("Not enough items yet");return;}const
  const next=()=>{if(n>=q.length){addXP(score*2);return done_(`${score} / ${q.length}`,`+${score*2} bonus XP${score===q.length?" · perfect! 🌟":""}`);}
   const i=q[n],hdr=lhead(n,q.length);
   if(mode==="mc"){const rev=Math.random()<.5;const opts=shuffle([i,...shuffle(items().filter(x=>x.en!==i.en)).slice(0,3)]);
-   view(hdr+`<p class="hint">${rev?"How do you say…":"What does this mean?"}</p>`+(rev?`<div class="card"><div class="en">${esc(i.en)}</div></div>`:cardHTML(i,0))+opts.map((o,k)=>`<button class="btn opt" data-k="${k}">${rev?`<span><span style="font-size:20px">${esc(o.nat)}</span> <span class="hint">${esc(o.rom)}</span></span>`:esc(o.en)}</button>`).join(""));bindSay(i);if(!rev)speak(i.nat);
+   view(hdr+`<p class="hint">${rev?"How do you say…":"What does this mean?"}</p>`+(rev?`<div class="card"><div class="en">${esc(i.en)}</div></div>`:cardHTML(i,0))+opts.map((o,k)=>`<button class="btn opt" data-k="${k}">${rev?`<span class="optp">${showNat()&&!S.easy?`<span class="on">${esc(o.nat)}</span>`:""}<b class="orom">${esc(o.rom)}</b>${S.easy&&showNat()?`<span class="on sm">${esc(o.nat)}</span>`:""}${o.pr?`<span class="opr">🗣️ ${esc(o.pr)}</span>`:""}</span>`:esc(o.en)}</button>`).join(""));bindSay(i);if(!rev)speak(i.nat);
    app.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const ok=opts[+b.dataset.k]===i;b.classList.add(ok?"ok":"bad");app.querySelectorAll("[data-k]").forEach(x=>{if(opts[+x.dataset.k]===i)x.classList.add("ok");x.onclick=null});done(i,ok);});}
-  else{view(hdr+`<p class="hint">Type this in romanization</p><div class="card"><div class="en">${esc(i.en)}</div></div><input id="in" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. arigato gozaimasu"><button class="btn pri" id="go">Check</button>`);
+  else{view(hdr+`<p class="hint">Type it in romanization (English letters)</p><div class="card"><div class="en">${esc(i.en)}</div></div><input id="in" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${S.lang==="ja"?"e.g. arigato gozaimasu":"e.g. annyeonghaseyo"}"><p class="hint tiny">Spelling is forgiving: spaces, accents (ō) and long vowels don't matter. Native script works too.</p><button class="btn pri" id="go">Check</button>`);
    const inp=$("#in");inp.focus();const chk=()=>{if($("#go").disabled)return;$("#go").disabled=true;const ok=accepts(i,inp.value);inp.disabled=true;inp.style.borderColor=ok?"var(--ok)":"var(--bad)";done(i,ok);};
    $("#go").onclick=chk;inp.onkeydown=e=>{if(e.key==="Enter")chk()};}};
  const done=(i,ok)=>{grade(i,ok);feedback(ok);if(ok)score++;speak(i.nat);
-  app.querySelector(".view").insertAdjacentHTML("beforeend",`<div style="height:190px"></div><div class="fb ${ok?"ok":"bad"}"><h3>${ok?"✓ Nice!":"✗ Not quite"}</h3><div><b style="font-size:20px">${esc(i.nat)}</b> · ${esc(i.rom)}</div><div class="hint">${esc(i.en)}</div><button class="btn pri" id="nx">Continue</button></div>`);
+  app.querySelector(".view").insertAdjacentHTML("beforeend",`<div style="height:190px"></div><div class="fb ${ok?"ok":"bad"}"><h3>${ok?"✓ Nice!":"✗ Not quite"}</h3><div class="fbp">${phr(i)}</div><div class="hint">${esc(i.en)}</div><button class="btn pri" id="nx">Continue</button></div>`);
   $("#nx").onclick=()=>{n++;next()};};next();}
 document.querySelectorAll("#langs button").forEach(b=>b.onclick=()=>{S.lang=b.dataset.l;save();stats();home();});
 stats();home();
 
 function trip(){if(!S.trip)return"";const d=Math.ceil((new Date(S.trip+"T00:00:00")-new Date(today()+"T00:00:00"))/864e5);return d>0?` · trip in ${d} day${d==1?"":"s"}`:d==0?" · trip starts today! ✈️":"";}
-function sheet(first){const m=document.createElement("div");m.className="modal";m.innerHTML=`<div class="mbox" role="dialog" aria-modal="true"><div class="wave">👋</div><h2>${first?"Welcome to TripTalk!":"Settings"}</h2><label>What should we call you?<input id="nm" maxlength="30" autocomplete="given-name" placeholder="Your name" value="${esc(S.name||"")}"></label>${first?"":`<label>Trip date (optional)<input id="td" type="date" value="${S.trip||""}"></label>`}<button class="btn pri" id="sv">${first?"Let's go":"Save"}</button><button class="btn ghost" id="sk">${first?"Skip":"Cancel"}</button></div>`;document.body.appendChild(m);const nm=m.querySelector("#nm");setTimeout(()=>nm.focus(),50);
+function sheet(first){const m=document.createElement("div");m.className="modal";m.innerHTML=`<div class="mbox" role="dialog" aria-modal="true"><div class="wave">👋</div><h2>${first?"Welcome to TripTalk!":"Settings"}</h2><label>What should we call you?<input id="nm" maxlength="30" autocomplete="given-name" placeholder="Your name" value="${esc(S.name||"")}"></label>${first?"":`<label>Trip date (optional)<input id="td" type="date" value="${S.trip||""}"></label><label class="chk"><input type="checkbox" id="sn" ${showNat()?"checked":""}> Show native script</label><label class="chk"><input type="checkbox" id="ez" ${S.easy?"checked":""}> Easy mode <small>(romanization first, extra large)</small></label>`}<button class="btn pri" id="sv">${first?"Let's go":"Save"}</button><button class="btn ghost" id="sk">${first?"Skip":"Cancel"}</button></div>`;document.body.appendChild(m);const nm=m.querySelector("#nm");setTimeout(()=>nm.focus(),50);
 const close=()=>{m.remove();home();};
-m.querySelector("#sv").onclick=()=>{S.name=nm.value.trim();const td=m.querySelector("#td");if(td)S.trip=td.value;save();close();};
+m.querySelector("#sv").onclick=()=>{S.name=nm.value.trim();const td=m.querySelector("#td");if(td){S.trip=td.value;S.showNat=m.querySelector("#sn").checked;S.easy=m.querySelector("#ez").checked;}save();close();};
 nm.onkeydown=e=>{if(e.key==="Enter")m.querySelector("#sv").click();};
 m.querySelector("#sk").onclick=()=>{if(S.name===undefined)S.name="";save();close();};}
 document.addEventListener("click",e=>{if(e.target.closest("#set,#hi"))sheet(false);});
 if(S.name===undefined)setTimeout(()=>sheet(true),300);
+app.addEventListener("click",e=>{if(e.target.closest(".lhead .x"))home();});
