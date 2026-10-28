@@ -74,3 +74,9 @@ input{width:100%;font-family:inherit;font-weight:600;font-size:20px;padding:16px
 .lvl button{flex:1;border:0;background:transparent;color:var(--mute);font:inherit;font-weight:700;font-size:14px;padding:10px 4px;border-radius:12px;cursor:pointer}
 .lvl button.on{background:var(--soft);color:var(--acc)}
 .card.listen{text-align:center}.spk.big{width:84px;height:84px;font-size:38px}.card.listen .btn{margin-top:6px}
+
+.tile.sit{background:linear-gradient(135deg,var(--soft),var(--card))}
+.bub{display:flex;gap:10px;align-items:flex-start;background:var(--card);border-radius:18px 18px 18px 4px;padding:14px;box-shadow:var(--shadow);margin:8px 0}
+.bub .bn{font-size:22px;font-weight:700}.bub .br{color:var(--acc);font-weight:600}.bub .be{color:var(--mute);font-size:14px;margin-top:4px}
+.bub.sm{font-size:14px;padding:8px 12px;opacity:.75;max-width:85%}.bub.me{margin-left:auto;background:var(--soft);border-radius:18px 18px 4px 18px;justify-content:flex-end}
+.vn{font-size:1.35rem;font-weight:700}.vrow small{display:block}.vform .r{align-items:center}
