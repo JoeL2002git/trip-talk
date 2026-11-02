@@ -122,7 +122,7 @@ Suicaにチャージしたいです|Suika ni chāji shitai desu|I'd like to top 
 やめて！ / やめてください|yamete! / yamete kudasai|Stop it! (casual) / Please stop||yah-meh-teh! / yah-meh-teh koo-dah-sai
 @adv shopping
 何かお探しですか|nanika o-sagashi desu ka|Looking for something?|🎧 Reply 見ているだけです.|nah-nee-kah oh-sah-gah-shee dess kah
-ご試着されますか|go-shichaku saremasu ka|Would you like to try it on?|🎧 Staff.|goh-shee-chah-koo sah-reh-mahss kah
+ご試着なさいますか|go-shichaku nasaimasu ka|Would you like to try it on?|🎧 Staff.|goh-shee-chah-koo nah-sai-mahss kah
 お支払いはいかがなさいますか|o-shiharai wa ikaga nasaimasu ka|How would you like to pay?|🎧 Very polite.|oh-shee-hah-rai wah ee-kah-gah nah-sai-mahss kah
 一括でよろしいですか|ikkatsu de yoroshii desu ka|Single payment OK?|🎧 Card payment; answer はい.|eek-kah-tsoo deh yoh-roh-SHEE dess kah
 めっちゃかわいい！|metcha kawaii!|Super cute!|Casual slang (originally Kansai).|meht-chah kah-wah-EE!

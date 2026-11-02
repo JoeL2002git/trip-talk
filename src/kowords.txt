@@ -33,7 +33,7 @@ ATM|eitiem|ATM|AY-tee-EM|Look for "Global ATM"
 절|jeol|(Buddhist) temple|JUHL|
 *시장|sijang|market|SHEE-jahng|
 식당|sikdang|restaurant|SHEEK-dahng|
-*PC방|pissibang|PC bang (gaming cafe)|pee-shee-BAHNG|Pay per hour
+*PC방|pisibang|PC bang (gaming cafe)|pee-shee-BAHNG|Pay per hour
 *노래방|noraebang|karaoke room|noh-REH-bahng|
 *찜질방|jjimjilbang|bathhouse/sauna|JJEEM-jeel-bahng|
 *포차|pocha|street tent bar|POH-chah|Short for 포장마차
@@ -147,6 +147,6 @@ ATM|eitiem|ATM|AY-tee-EM|Look for "Global ATM"
 지도|jido|map|JEE-doh|
 *사진|sajin|photo|SAH-jeen|
 쓰레기통|sseuregitong|trash can|SSEU-reh-gee-tohng|
-*한복|hanbok|hanbok|HAHN-bohk|Wearing one = free palace entry
+*한복|hanbok|hanbok|HAHN-bohk|Wearing a full hanbok (top plus skirt or trousers) gets you free entry to Seoul's royal palaces.
 *신분증|sinbunjeung|ID card|SHEEN-boon-jeung|
 *입장료|ipjangnyo|entrance / cover charge|EEP-jahng-nyoh|
