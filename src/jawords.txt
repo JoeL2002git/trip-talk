@@ -1,5 +1,5 @@
 @transport 🚆 Transport
-*タクシー|タクシー|takushī|taxi|TAH-koo-shee|Loanword; late-night fares +20% (approx.)
+*タクシー|タクシー|takushī|taxi|TAH-koo-shee|Loanword; Late night (10 PM-5 AM) fares are about 20% higher (Tokyo Taxi Center).
 電車|でんしゃ|densha|train|DEN-shah|
 *新幹線|しんかんせん|shinkansen|bullet train|sheen-KAHN-sen|Nozomi = fastest, Hikari, Kodama = all stops
 地下鉄|ちかてつ|chikatetsu|subway|chee-KAH-teh-tsoo|
@@ -14,7 +14,7 @@
 *改札|かいさつ|kaisatsu|ticket gate|KAI-sah-tsoo|
 飛行機|ひこうき|hikōki|airplane|hee-KOH-kee|
 *指定席|していせき|shiteiseki|reserved seat|shee-TAY-seh-kee|
-*自由席|じゆうせき|jiyūseki|non-reserved seat|jee-YOO-seh-kee|Nozomi has few non-reserved cars
+*自由席|じゆうせき|jiyūseki|non-reserved seat|jee-YOO-seh-kee|Nozomi: non-reserved seats only in cars 1-2, none during Golden Week, Obon and New Year peaks (JR Central)
 *終電|しゅうでん|shūden|last train|SHOO-den|Often around midnight
 *モノレール|モノレール|monorēru|monorail|moh-noh-REH-roo|Tokyo Monorail goes to Haneda
 *京急|けいきゅう|Keikyū|Keikyu Line|KAY-kyoo|Haneda ↔ Shinagawa
