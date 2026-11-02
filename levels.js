@@ -933,7 +933,7 @@ const LEVELS={
 "smalltalk": [
 [
 "한국말 진짜 잘하시네요!",
-"hangukmal jinjja jalhasineyo!",
+"hangungmal jinjja jalhasineyo!",
 "Your Korean is really good!",
 "🎧 You'll hear this a lot.",
 "hahn-goong-mahl jeen-jjah jahl-hah-shee-neh-yo!"
@@ -1799,11 +1799,11 @@ const LEVELS={
 "nah-nee-kah oh-sah-gah-shee dess kah"
 ],
 [
-"ご試着されますか",
-"go-shichaku saremasu ka",
+"ご試着なさいますか",
+"go-shichaku nasaimasu ka",
 "Would you like to try it on?",
 "🎧 Staff.",
-"goh-shee-chah-koo sah-reh-mahss kah"
+"goh-shee-chah-koo nah-sai-mahss kah"
 ],
 [
 "お支払いはいかがなさいますか",
