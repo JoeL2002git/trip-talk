@@ -1,0 +1,68 @@
+@food 🍜 Food
+*炸酱面|zhájiàngmiàn|black-bean noodles (jajangmyeon)|jah-jyahng-myen|Korean 짜장면 (jjajangmyeon) grew out of this northern Chinese dish. Korea's version uses sweet black chunjang sauce; the mainland one is saltier, browner and not sweet. Incheon Chinatown is called its Korean birthplace (Jjajangmyeon Museum).
+*糖醋肉|tángcùròu|sweet and sour pork (tangsuyuk)|tahng-tsoo-roh|Korean 탕수육 (tangsuyuk): crisp fried pork with a thick sweet-sour sauce, poured on or served on the side.
+*炒码面|chǎomǎmiàn|spicy seafood noodle soup (jjamppong)|chaow-mah-myen|⚠️ Korean 짬뽕 (jjamppong) has no exact mainland match. Korean-Chinese menus sometimes write 炒码面; in China, 海鲜面 (seafood noodles) is closest but usually not spicy.
+*干烹鸡|gānpēngjī|sweet-spicy fried chicken (kkanpunggi)|gahn-pung-jee|Korean 깐풍기 (kkanpunggi), a Korean-Chinese favorite.
+*煎饺|jiānjiǎo|pan-fried dumplings (gun-mandu)|jyen-jyaow|Closest to Korean-Chinese 군만두 (gun-mandu). Boiled dumplings are 饺子 (jiǎozi).
+*月饼|yuèbǐng|mooncake|yweh-bing|Incheon Chinatown bakeries sell these year-round.
+饺子|jiǎozi|dumplings (boiled)|jyaow-dzuh|
+包子|bāozi|steamed bun|baow-dzuh|
+米饭|mǐfàn|cooked rice|mee-fahn|
+面条|miàntiáo|noodles|myen-tyow|
+炒饭|chǎofàn|fried rice|chaow-fahn|Korean-Chinese fried rice often comes with black-bean sauce on the side.
+烤鸭|kǎoyā|roast duck|kaow-yah|
+茶|chá|tea|chah|
+啤酒|píjiǔ|beer|pee-jyoh|
+鸡肉|jīròu|chicken (meat)|jee-roh|
+猪肉|zhūròu|pork|joo-roh|
+牛肉|niúròu|beef|nyoh-roh|
+海鲜|hǎixiān|seafood|hai-shyen|
+醋|cù|vinegar|tsoo|Koreans dip gun-mandu in soy sauce mixed with vinegar.
+@transport 🚆 Transport
+地铁|dìtiě|subway|dee-tyeh|
+公交车|gōngjiāochē|bus|gong-jyaow-chuh|
+出租车|chūzūchē|taxi|choo-dzoo-chuh|
+火车|huǒchē|train|hwaw-chuh|
+高铁|gāotiě|high-speed train|gaow-tyeh|
+*新干线|xīngànxiàn|Shinkansen|sheen-gahn-shyen|Japan's bullet train.
+*机场|jīchǎng|airport|jee-chahng|
+票|piào|ticket|pyow|
+出口|chūkǒu|exit|choo-koh|Station exits are numbered: 3号出口 = Exit 3.
+入口|rùkǒu|entrance|roo-koh|
+站|zhàn|station / stop|jahn|
+行李|xíngli|luggage|shing-lee|
+@places 🏙️ Places
+*唐人街|tángrénjiē|Chinatown|tahng-run-jyeh|Incheon's is usually called 仁川中华街 (Rénchuān Zhōnghuá Jiē).
+*仁川|Rénchuān|Incheon|run-chwahn|
+*首尔|Shǒu'ěr|Seoul|shoh-ar|
+*明洞|Míngdòng|Myeongdong|ming-dong|
+*东京|Dōngjīng|Tokyo|dong-jing|
+*大阪|Dàbǎn|Osaka|dah-bahn|
+*热海|Rèhǎi|Atami|ruh-hai|Same characters as Japanese 熱海, read the Chinese way.
+厕所|cèsuǒ|toilet|tsuh-swaw|
+便利店|biànlìdiàn|convenience store|byen-lee-dyen|
+银行|yínháng|bank|yeen-hahng|
+酒店|jiǔdiàn|hotel|jyoh-dyen|
+餐厅|cāntīng|restaurant|tsahn-ting|
+寺庙|sìmiào|temple|suh-myow|
+*温泉|wēnquán|hot spring (onsen)|wun-chwen|
+博物馆|bówùguǎn|museum|baw-woo-gwahn|
+@shopping 🛍️ Shopping
+钱|qián|money|chyen|
+现金|xiànjīn|cash|shyen-jeen|
+信用卡|xìnyòngkǎ|credit card|sheen-yong-kah|
+收据|shōujù|receipt|shoh-jew|
+袋子|dàizi|bag|dai-dzuh|
+*免税|miǎnshuì|tax-free|myen-shway|Shops in Korea and Japan often show 免税 / Tax Free signs.
+衣服|yīfu|clothes|ee-foo|
+鞋|xié|shoes|shyeh|
+礼物|lǐwù|gift|lee-woo|
+尺码|chǐmǎ|size|chrr-mah|
+@health 🚑 Health & safety
+药|yào|medicine|yow|
+头疼|tóuténg|headache|toh-tung|
+感冒|gǎnmào|a cold|gahn-maow|
+医生|yīshēng|doctor|ee-shung|
+*护照|hùzhào|passport|hoo-jaow|
+手机|shǒujī|cell phone|shoh-jee|
+创可贴|chuāngkětiē|adhesive bandage|chwahng-kuh-tyeh|

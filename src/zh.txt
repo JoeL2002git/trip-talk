@@ -1,0 +1,194 @@
+@beg greetings
+你好|nǐ hǎo|Hello|The everyday hello. Two 3rd tones in a row: the first one rises, so it sounds like "ní hǎo".|nee how
+您好|nín hǎo|Hello (polite)|您 is the respectful "you". Use it with staff, elders and strangers.|neen how
+早上好|zǎoshang hǎo|Good morning|Until about 10 AM. Friends just say 早 (zǎo).|dzow-shahng how
+晚上好|wǎnshang hǎo|Good evening||wahn-shahng how
+谢谢|xièxie|Thank you|The second 谢 is light and unstressed.|shyeh-shyeh
+非常感谢|fēicháng gǎnxiè|Thank you very much|More formal and heartfelt.|fay-chahng gahn-shyeh
+不客气|bú kèqi|You're welcome|不 (bù) changes to bú before a falling tone.|boo kuh-chee
+不好意思|bù hǎoyìsi|Excuse me / Sorry (light)|All-purpose: getting attention, squeezing past, small slips.|boo how-ee-suh
+对不起|duìbuqǐ|I'm sorry|A real apology, e.g. you bumped someone.|dway-boo-chee
+是|shì|Yes (that's right)|Chinese has no single word for "yes"; 是 means "it is". 对 (duì, "correct") also works.|shrr
+不是|bú shì|No (that's not it)||boo shrr
+请|qǐng|Please (go ahead / would you…)|Goes before a verb: 请坐 (qǐng zuò) = please sit.|ching
+再见|zàijiàn|Goodbye||dzai-jyen
+晚安|wǎn'ān|Good night|When going to bed.|wahn-ahn
+没关系|méi guānxi|It's OK / No problem|The reply to 对不起 or 不好意思.|may gwahn-shee
+很高兴认识您|hěn gāoxìng rènshi nín|Nice to meet you|Use 你 (nǐ) instead of 您 with people your age.|hun gow-shing run-shrr neen
+@beg numbers
+一|yī|One|Said "yāo" when reading out phone and room numbers.|ee
+二|èr|Two|Before a counter or money, use 两 (liǎng): 两个, 两块.|ar
+三|sān|Three||sahn
+四|sì|Four|Sounds like 死 (sǐ, "death"), so 4 is unlucky.|suh
+五|wǔ|Five||woo
+六|liù|Six||lyoh
+七|qī|Seven||chee
+八|bā|Eight|A lucky number.|bah
+九|jiǔ|Nine||jyoh
+十|shí|Ten|11 = 十一 (shíyī), 20 = 二十 (èrshí).|shrr
+百|bǎi|Hundred|200 = 两百 (liǎng bǎi).|buy
+千|qiān|Thousand||chyen
+万|wàn|Ten thousand|Big numbers group by 万: 50,000 = 五万.|wahn
+块|kuài|Yuan (spoken)|Prices are said with 块 and written with 元 (yuán).|kwhy
+多少钱?|duōshao qián?|How much is it?|The key shopping question.|dwoh-shaow chyen
+太贵了|tài guì le|That's too expensive|For light bargaining at markets, not in malls.|tie gway luh
+可以刷卡吗?|kěyǐ shuākǎ ma?|Can I pay by card?|In mainland China most people pay by phone (Alipay or WeChat Pay).|kuh-ee shwah-kah mah
+可以便宜一点吗?|kěyǐ piányi yìdiǎn ma?|Can you make it a bit cheaper?||kuh-ee pyen-ee ee-dyen mah
+@beg food
+菜单|càidān|Menu||tsai-dahn
+请给我看一下菜单|qǐng gěi wǒ kàn yíxià càidān|Could I see the menu, please?||ching gay waw kahn ee-shyah tsai-dahn
+我要这个|wǒ yào zhège|I'll have this one|Point at the menu. 要 = want.|waw yow juh-guh
+有英文菜单吗?|yǒu Yīngwén càidān ma?|Do you have an English menu?||yoh ying-wun tsai-dahn mah
+不要辣|bú yào là|Not spicy, please|微辣 (wēi là) = mildly spicy.|boo yow lah
+我不吃肉|wǒ bù chī ròu|I don't eat meat|Vegetarian food = 素食 (sùshí).|waw boo chrr roh
+我对花生过敏|wǒ duì huāshēng guòmǐn|I'm allergic to peanuts|Swap in another food word.|waw dway hwah-shung gwaw-meen
+水|shuǐ|Water|Restaurants in China often bring hot water or tea. Ice water = 冰水 (bīng shuǐ).|shway
+好吃!|hǎochī!|Delicious!||how-chrr
+买单|mǎidān|The check, please|结账 (jiézhàng) also works.|my-dahn
+打包|dǎbāo|To go / Box it up|Also for leftovers: 可以打包吗?|dah-baow
+干杯!|gānbēi!|Cheers!|Literally "dry the cup".|gahn-bay
+筷子|kuàizi|Chopsticks||kwhy-dzuh
+两位|liǎng wèi|Two people (table for two)|位 is the polite counter for people.|lyahng way
+@beg transit
+…在哪里?|… zài nǎlǐ?|Where is …?|Put the place first: 地铁站在哪里?|… dzai nah-lee
+厕所在哪里?|cèsuǒ zài nǎlǐ?|Where's the toilet?|洗手间 (xǐshǒujiān, "restroom") is a politer word.|tsuh-swaw dzai nah-lee
+地铁站|dìtiě zhàn|Subway station||dee-tyeh jahn
+出租车|chūzūchē|Taxi|打车 (dǎchē) = to take a taxi.|choo-dzoo-chuh
+请去这个地址|qǐng qù zhège dìzhǐ|Please take me to this address|Show the address on your phone.|ching chew juh-guh dee-jrr
+左转|zuǒ zhuǎn|Turn left||dzwaw jwahn
+右转|yòu zhuǎn|Turn right||yoh jwahn
+一直走|yìzhí zǒu|Go straight||ee-jrr dzoh
+在这里停|zài zhèlǐ tíng|Stop here|Add 请 at the start to be extra polite.|dzai juh-lee ting
+机场|jīchǎng|Airport||jee-chahng
+远吗?|yuǎn ma?|Is it far?||ywen mah
+一张票|yì zhāng piào|One ticket|张 is the counter for flat things.|ee jahng pyow
+火车站|huǒchē zhàn|Train station||hwaw-chuh jahn
+@beg emergency
+救命!|jiùmìng!|Help!|Only for real danger.|jyoh-ming
+请帮帮我|qǐng bāngbang wǒ|Please help me||ching bahng-bahng waw
+我迷路了|wǒ mílù le|I'm lost||waw mee-loo luh
+我不舒服|wǒ bù shūfu|I don't feel well||waw boo shoo-foo
+医院|yīyuàn|Hospital||ee-ywen
+药店|yàodiàn|Pharmacy||yow-dyen
+请叫救护车|qǐng jiào jiùhùchē|Please call an ambulance|Ambulance number: 119 in both Korea and Japan.|ching jyow jyoh-hoo-chuh
+警察|jǐngchá|Police|Police number: 112 in Korea, 110 in Japan.|jing-chah
+我的护照丢了|wǒ de hùzhào diū le|I lost my passport||waw duh hoo-jow dyoh luh
+我听不懂|wǒ tīng bu dǒng|I don't understand (what you're saying)||waw ting boo dong
+您会说英语吗?|nín huì shuō Yīngyǔ ma?|Do you speak English?||neen hway shwaw ying-yoo mah
+这里疼|zhèlǐ téng|It hurts here|Point to the spot.|juh-lee tung
+@beg shopping
+这个多少钱?|zhège duōshao qián?|How much is this?||juh-guh dwoh-shaow chyen
+我只是看看|wǒ zhǐshì kànkan|I'm just looking||waw jrr-shrr kahn-kahn
+有别的颜色吗?|yǒu biéde yánsè ma?|Do you have other colors?||yoh byeh-duh yen-suh mah
+有大一点的吗?|yǒu dà yìdiǎn de ma?|Do you have a bigger one?|小一点 (xiǎo yìdiǎn) = smaller.|yoh dah ee-dyen duh mah
+可以试试吗?|kěyǐ shìshi ma?|Can I try it (on)?||kuh-ee shrr-shrr mah
+我买这个|wǒ mǎi zhège|I'll buy this||waw my juh-guh
+可以退税吗?|kěyǐ tuìshuì ma?|Can I get a tax refund?|Look for Tax Free / 免税 signs in Korea and Japan.|kuh-ee tway-shway mah
+请给我一个袋子|qǐng gěi wǒ yí ge dàizi|A bag, please|Many shops charge a little for bags.|ching gay waw ee guh dai-dzuh
+便宜|piányi|Cheap||pyen-ee
+贵|guì|Expensive||gway
+打折|dǎzhé|Discount / on sale|打八折 = 20% off (you pay 80%).|dah-juh
+@beg hotel
+我有预订|wǒ yǒu yùdìng|I have a reservation||waw yoh yoo-ding
+我要办理入住|wǒ yào bànlǐ rùzhù|I'd like to check in||waw yow bahn-lee roo-joo
+退房|tuìfáng|Check out|几点退房? = What time is check-out?|tway-fahng
+房间|fángjiān|Room||fahng-jyen
+WiFi密码是多少?|WiFi mìmǎ shì duōshao?|What's the Wi-Fi password?|WiFi is said "wai-fai".|wai-fai mee-mah shrr dwoh-shaow
+可以寄存行李吗?|kěyǐ jìcún xíngli ma?|Can I leave my luggage here?||kuh-ee jee-tswun shing-lee mah
+早餐几点?|zǎocān jǐ diǎn?|What time is breakfast?||dzow-tsahn jee dyen
+空调坏了|kōngtiáo huài le|The air conditioner is broken||kong-tyow hwhy luh
+请再给我一条毛巾|qǐng zài gěi wǒ yì tiáo máojīn|One more towel, please|条 is the counter for long things.|ching dzai gay waw ee tyow maow-jeen
+钥匙|yàoshi|Key|房卡 (fángkǎ) = room key card.|yow-shrr
+@beg smalltalk
+我叫…|wǒ jiào …|My name is …||waw jyow …
+您叫什么名字?|nín jiào shénme míngzi?|What's your name?||neen jyow shun-muh ming-dzuh
+我是美国人|wǒ shì Měiguó rén|I'm American|美国 = USA, 人 = person.|waw shrr may-gwaw run
+我会说一点中文|wǒ huì shuō yìdiǎn Zhōngwén|I speak a little Chinese||waw hway shwaw ee-dyen jong-wun
+请说慢一点|qǐng shuō màn yìdiǎn|Please speak a bit slower||ching shwaw mahn ee-dyen
+您是哪里人?|nín shì nǎlǐ rén?|Where are you from?||neen shrr nah-lee run
+我来旅游|wǒ lái lǚyóu|I'm here on a trip||waw lie lyoo-yoh
+太好了!|tài hǎo le!|That's great!||tie how luh
+可以拍照吗?|kěyǐ pāizhào ma?|May I take a photo?||kuh-ee pie-jow mah
+可以帮我们拍照吗?|kěyǐ bāng wǒmen pāizhào ma?|Could you take a photo of us?||kuh-ee bahng waw-mun pie-jow mah
+加个微信吧|jiā ge Wēixìn ba|Let's add each other on WeChat|WeChat is how Chinese speakers swap contacts.|jyah guh way-shin bah
+@int greetings
+好久不见|hǎojiǔ bú jiàn|Long time no see||how-jyoh boo jyen
+最近怎么样?|zuìjìn zěnmeyàng?|How have you been lately?||dzway-jeen dzun-muh-yahng
+麻烦您了|máfan nín le|Sorry for the trouble / Thanks for your help|Polite thanks after asking a favor.|mah-fahn neen luh
+慢走|màn zǒu|Take care (lit. "walk slowly")|🎧 Staff say this as you leave.|mahn dzoh
+欢迎光临|huānyíng guānglín|Welcome (to our shop)|🎧 Staff call this out when you walk in.|hwahn-ying gwahng-leen
+@int numbers
+一共多少钱?|yígòng duōshao qián?|How much altogether?||ee-gong dwoh-shaow chyen
+一共八十五块|yígòng bāshíwǔ kuài|That's 85 yuan altogether|🎧 Listen for the number before 块.|ee-gong bah-shrr-woo kwhy
+我要两个|wǒ yào liǎng ge|I want two (of them)|Use 两, not 二, before a counter.|waw yow lyahng guh
+三个人|sān ge rén|Three people|个 is the all-purpose counter.|sahn guh run
+找您二十块|zhǎo nín èrshí kuài|Here's 20 yuan change|🎧 找 = give change.|jaow neen ar-shrr kwhy
+@int food
+有什么推荐的吗?|yǒu shénme tuījiàn de ma?|What do you recommend?||yoh shun-muh tway-jyen duh mah
+几位?|jǐ wèi?|How many people?|🎧 Asked at the door. Answer 两位, 三位….|jee way
+少放点盐|shǎo fàng diǎn yán|Less salt, please||shaow fahng dyen yen
+再来一瓶啤酒|zài lái yì píng píjiǔ|One more bottle of beer|来 is a casual "bring".|dzai lie ee ping pee-jyoh
+可以分开付吗?|kěyǐ fēnkāi fù ma?|Can we pay separately?||kuh-ee fun-kai foo mah
+在这儿吃还是带走?|zài zhèr chī háishi dài zǒu?|For here or to go?|🎧 Answer 在这儿吃 (here) or 带走 (to go).|dzai jur chrr hai-shrr dai dzoh
+@int transit
+到…要多长时间?|dào … yào duō cháng shíjiān?|How long does it take to get to …?||daow … yow dwoh chahng shrr-jyen
+在哪儿换乘?|zài nǎr huànchéng?|Where do I transfer?||dzai nar hwahn-chung
+下一站是…|xià yí zhàn shì …|The next station is …|🎧 Train announcement.|shyah ee jahn shrr …
+请开一下后备箱|qǐng kāi yíxià hòubèixiāng|Please open the trunk||ching kai ee-shyah hoh-bay-shyahng
+走路可以到吗?|zǒulù kěyǐ dào ma?|Can I walk there?||dzoh-loo kuh-ee daow mah
+@int emergency
+我发烧了|wǒ fāshāo le|I have a fever||waw fah-shaow luh
+我肚子疼|wǒ dùzi téng|I have a stomachache||waw doo-dzuh tung
+我的钱包被偷了|wǒ de qiánbāo bèi tōu le|My wallet was stolen|被 marks the passive.|waw duh chyen-baow bay toh luh
+最近的医院在哪里?|zuìjìn de yīyuàn zài nǎlǐ?|Where's the nearest hospital?||dzway-jeen duh ee-ywen dzai nah-lee
+请帮我叫警察|qǐng bāng wǒ jiào jǐngchá|Please call the police for me||ching bahng waw jyow jing-chah
+@int shopping
+能便宜点吗?|néng piányi diǎn ma?|Can you go a little lower?|Casual bargaining.|nung pyen-ee dyen mah
+这个有小号的吗?|zhège yǒu xiǎo hào de ma?|Does this come in small?|中号 = medium, 大号 = large.|juh-guh yoh shyaow how duh mah
+我再看看|wǒ zài kànkan|I'll keep looking (polite no)|A soft way to walk away.|waw dzai kahn-kahn
+需要袋子吗?|xūyào dàizi ma?|Do you need a bag?|🎧 Answer 要 (yes) or 不要 (no).|shoo-yow dai-dzuh mah
+收银台在哪里?|shōuyíntái zài nǎlǐ?|Where's the checkout?||shoh-yeen-tie dzai nah-lee
+@int hotel
+可以提前入住吗?|kěyǐ tíqián rùzhù ma?|Can I check in early?||kuh-ee tee-chyen roo-joo mah
+可以晚一点退房吗?|kěyǐ wǎn yìdiǎn tuìfáng ma?|Can I check out a little later?||kuh-ee wahn ee-dyen tway-fahng mah
+请出示您的护照|qǐng chūshì nín de hùzhào|Please show your passport|🎧 The front desk asks this.|ching choo-shrr neen duh hoo-jow
+房间没有热水|fángjiān méiyǒu rèshuǐ|There's no hot water in the room||fahng-jyen may-yoh ruh-shway
+我想换房间|wǒ xiǎng huàn fángjiān|I'd like to change rooms||waw shyahng hwahn fahng-jyen
+@int smalltalk
+您去过中国吗?|nín qùguo Zhōngguó ma?|Have you been to China?|过 = have ever done.|neen chew-gwaw jong-gwaw mah
+我第一次来韩国|wǒ dì yī cì lái Hánguó|It's my first time in Korea|Japan = 日本 (Rìběn).|waw dee ee tsuh lie hahn-gwaw
+你的中文说得很好|nǐ de Zhōngwén shuō de hěn hǎo|Your Chinese is really good|🎧 A modest reply: 哪里哪里 (nǎlǐ nǎlǐ), "oh, not really".|nee duh jong-wun shwaw duh hun how
+您做什么工作?|nín zuò shénme gōngzuò?|What do you do for work?||neen dzwaw shun-muh gong-dzwaw
+我们是朋友|wǒmen shì péngyou|We're friends||waw-mun shrr pung-yoh
+@adv greetings
+请多关照|qǐng duō guānzhào|I hope we'll get along / Please look after me|Formal; often after an introduction.|ching dwoh gwahn-jaow
+辛苦了|xīnkǔ le|Thanks for your hard work|Said to staff, drivers and guides.|sheen-koo luh
+改天见|gǎitiān jiàn|See you another day||guy-tyen jyen
+@adv numbers
+您付现金还是扫码?|nín fù xiànjīn háishi sǎomǎ?|Paying cash or by QR code?|扫码 = scan the code (Alipay or WeChat Pay).|neen foo shyen-jeen hai-shrr saow-mah
+打九折|dǎ jiǔ zhé|10% off|Chinese discounts name what you pay: 九折 = pay 90%.|dah jyoh juh
+满一百减二十|mǎn yìbǎi jiǎn èrshí|20 off when you spend 100|A common promo sign.|mahn ee-buy jyen ar-shrr
+@adv food
+这家店的招牌菜是什么?|zhè jiā diàn de zhāopái cài shì shénme?|What's this restaurant's signature dish?||juh jyah dyen duh jaow-pie tsai shrr shun-muh
+菜还没上,能催一下吗?|cài hái méi shàng, néng cuī yíxià ma?|Our food hasn't come yet. Could you check on it?||tsai hai may shahng, nung tsway ee-shyah mah
+您慢用|nín màn yòng|Enjoy your meal|Servers say this as the food arrives.|neen mahn yong
+@adv transit
+麻烦您打表|máfan nín dǎbiǎo|Please use the meter|Some drivers quote a flat price; this asks for the meter.|mah-fahn neen dah-byow
+前方到站|qiánfāng dào zhàn|Arriving at the next station|Standard train announcement.|chyen-fahng daow jahn
+末班车几点?|mòbānchē jǐ diǎn?|What time is the last train/bus?||maw-bahn-chuh jee dyen
+@adv emergency
+我需要看医生|wǒ xūyào kàn yīshēng|I need to see a doctor||waw shoo-yow kahn ee-shung
+请帮我联系大使馆|qǐng bāng wǒ liánxì dàshǐguǎn|Please help me contact my embassy||ching bahng waw lyen-shee dah-shrr-gwahn
+我对青霉素过敏|wǒ duì qīngméisù guòmǐn|I'm allergic to penicillin||waw dway ching-may-soo gwaw-meen
+@adv shopping
+这是正品吗?|zhè shì zhèngpǐn ma?|Is this genuine (not a copy)?||juh shrr jung-peen mah
+可以换货吗?|kěyǐ huàn huò ma?|Can I exchange this?||kuh-ee hwahn hwaw mah
+买二送一|mǎi èr sòng yī|Buy two, get one free|A common sign or shout.|my ar song ee
+@adv hotel
+房间能打扫一下吗?|fángjiān néng dǎsǎo yíxià ma?|Could the room be cleaned?||fahng-jyen nung dah-saow ee-shyah mah
+押金什么时候退?|yājīn shénme shíhou tuì?|When is the deposit refunded?||yah-jeen shun-muh shrr-hoh tway
+请帮我叫一辆出租车|qǐng bāng wǒ jiào yí liàng chūzūchē|Please call a taxi for me|辆 is the counter for vehicles.|ching bahng waw jyow ee lyahng choo-dzoo-chuh
+@adv smalltalk
+您推荐去哪里玩?|nín tuījiàn qù nǎlǐ wán?|Where do you recommend going?||neen tway-jyen chew nah-lee wahn
+下次来中国找我|xià cì lái Zhōngguó zhǎo wǒ|Look me up next time you're in China|A friendly offer you may hear.|shyah tsuh lie jong-gwaw jaow waw
+保持联系!|bǎochí liánxì!|Keep in touch!||baow-chrr lyen-shee

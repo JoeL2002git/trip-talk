@@ -1,0 +1,90 @@
+# Scenes. "#" = id|emoji|title|trip(1/0). S = staff line nat|pinyin|English. O = reply nat|pinyin|English|pronunciation; first O is correct.
+#rest|🥟|Restaurant|0
+S 欢迎光临!几位?|huānyíng guānglín! jǐ wèi?|Welcome! How many?
+O 两位|liǎng wèi|Two people|lyahng way
+O 两块|liǎng kuài|Two yuan|lyahng kwhy
+O 两点|liǎng diǎn|Two o'clock|lyahng dyen
+S 这是菜单。您想吃点什么?|zhè shì càidān. nín xiǎng chī diǎn shénme?|Here's the menu. What would you like?
+O 我要一份炒饭|wǒ yào yí fèn chǎofàn|I'll have a fried rice|waw yow ee fun chaow-fahn
+O 厕所在哪里?|cèsuǒ zài nǎlǐ?|Where's the toilet?|tsuh-swaw dzai nah-lee
+O 再见|zàijiàn|Goodbye|dzai-jyen
+S 要辣的吗?|yào là de ma?|Do you want it spicy?
+O 不要辣,谢谢|bú yào là, xièxie|Not spicy, thanks|boo yow lah, shyeh-shyeh
+O 我是美国人|wǒ shì Měiguó rén|I'm American|waw shrr may-gwaw run
+O 太贵了|tài guì le|That's too expensive|tie gway luh
+S 喝点什么?|hē diǎn shénme?|Anything to drink?
+O 一瓶啤酒|yì píng píjiǔ|A bottle of beer|ee ping pee-jyoh
+O 一张票|yì zhāng piào|One ticket|ee jahng pyow
+O 一条毛巾|yì tiáo máojīn|One towel|ee tyow maow-jeen
+S 一共一百二十块。|yígòng yìbǎi èrshí kuài.|That's 120 yuan altogether.
+O 可以刷卡吗?|kěyǐ shuākǎ ma?|Can I pay by card?|kuh-ee shwah-kah mah
+O 我迷路了|wǒ mílù le|I'm lost|waw mee-loo luh
+O 您好|nín hǎo|Hello|neen how
+#taxi|🚕|Taxi|0
+S 您去哪儿?|nín qù nǎr?|Where to?
+O 请去这个地址|qǐng qù zhège dìzhǐ|Please take me to this address|ching chew juh-guh dee-jrr
+O 我不吃肉|wǒ bù chī ròu|I don't eat meat|waw boo chrr roh
+O 太好了|tài hǎo le|That's great|tie how luh
+S 走高速可以吗?|zǒu gāosù kěyǐ ma?|Is the expressway OK?
+O 可以|kěyǐ|That's fine|kuh-ee
+O 打包|dǎbāo|To go, please|dah-baow
+O 好吃|hǎochī|Delicious|how-chrr
+S 到了。|dào le.|We're here.
+O 在这里停就好|zài zhèlǐ tíng jiù hǎo|Stopping here is fine|dzai juh-lee ting jyoh how
+O 我要办理入住|wǒ yào bànlǐ rùzhù|I'd like to check in|waw yow bahn-lee roo-joo
+O 我只是看看|wǒ zhǐshì kànkan|I'm just looking|waw jrr-shrr kahn-kahn
+S 一共四十五块。|yígòng sìshíwǔ kuài.|That's 45 yuan.
+O 好的,谢谢师傅|hǎo de, xièxie shīfu|OK, thank you (driver)|how duh, shyeh-shyeh shrr-foo
+O 救命!|jiùmìng!|Help!|jyoh-ming
+O 晚安|wǎn'ān|Good night|wahn-ahn
+#hotel|🏨|Hotel check-in|0
+S 您好,有什么可以帮您?|nín hǎo, yǒu shénme kěyǐ bāng nín?|Hello, how can I help you?
+O 我要办理入住|wǒ yào bànlǐ rùzhù|I'd like to check in|waw yow bahn-lee roo-joo
+O 干杯!|gānbēi!|Cheers!|gahn-bay
+O 我要这个|wǒ yào zhège|I'll have this one|waw yow juh-guh
+S 请出示您的护照。|qǐng chūshì nín de hùzhào.|Your passport, please.
+O 好的,给您|hǎo de, gěi nín|Sure, here you go|how duh, gay neen
+O 不要辣|bú yào là|Not spicy, please|boo yow lah
+O 一直走|yìzhí zǒu|Go straight|ee-jrr dzoh
+S 您的房间在八楼。|nín de fángjiān zài bā lóu.|Your room is on the 8th floor.
+O WiFi密码是多少?|WiFi mìmǎ shì duōshao?|What's the Wi-Fi password?|wai-fai mee-mah shrr dwoh-shaow
+O 我迷路了|wǒ mílù le|I'm lost|waw mee-loo luh
+O 太贵了|tài guì le|That's too expensive|tie gway luh
+S 密码在房卡上。|mìmǎ zài fángkǎ shang.|The password is on the key card.
+O 好的,谢谢|hǎo de, xièxie|OK, thank you|how duh, shyeh-shyeh
+O 对不起|duìbuqǐ|I'm sorry|dway-boo-chee
+O 救命!|jiùmìng!|Help!|jyoh-ming
+#shop|🛍️|Shopping|0
+S 您好,需要帮忙吗?|nín hǎo, xūyào bāngmáng ma?|Hello, can I help you?
+O 我只是看看,谢谢|wǒ zhǐshì kànkan, xièxie|I'm just looking, thanks|waw jrr-shrr kahn-kahn, shyeh-shyeh
+O 买单|mǎidān|The check, please|my-dahn
+O 我发烧了|wǒ fāshāo le|I have a fever|waw fah-shaow luh
+S 这件很受欢迎。|zhè jiàn hěn shòu huānyíng.|This one is very popular.
+O 有别的颜色吗?|yǒu biéde yánsè ma?|Do you have other colors?|yoh byeh-duh yen-suh mah
+O 晚安|wǎn'ān|Good night|wahn-ahn
+O 一直走|yìzhí zǒu|Go straight|ee-jrr dzoh
+S 有黑色和白色。|yǒu hēisè hé báisè.|We have black and white.
+O 我买黑色的|wǒ mǎi hēisè de|I'll take the black one|waw my hay-suh duh
+O 我在等朋友|wǒ zài děng péngyou|I'm waiting for a friend|waw dzai dung pung-yoh
+O 机场|jīchǎng|Airport|jee-chahng
+S 要袋子吗?|yào dàizi ma?|Do you need a bag?
+O 不用了,谢谢|bú yòng le, xièxie|No need, thanks|boo yong luh, shyeh-shyeh
+O 打包|dǎbāo|To go, please|dah-baow
+O 救命!|jiùmìng!|Help!|jyoh-ming
+#chinatown|🥢|Incheon Chinatown noodles|1
+S 欢迎光临!吃点什么?|huānyíng guānglín! chī diǎn shénme?|Welcome! What will you have?
+O 两碗炸酱面|liǎng wǎn zhájiàngmiàn|Two bowls of jajangmyeon|lyahng wahn jah-jyahng-myen
+O 两张票|liǎng zhāng piào|Two tickets|lyahng jahng pyow
+O 两个房间|liǎng ge fángjiān|Two rooms|lyahng guh fahng-jyen
+S 还要别的吗?|hái yào biéde ma?|Anything else?
+O 再来一份糖醋肉|zài lái yí fèn tángcùròu|And one sweet and sour pork|dzai lie ee fun tahng-tsoo-roh
+O 我迷路了|wǒ mílù le|I'm lost|waw mee-loo luh
+O 可以退税吗?|kěyǐ tuìshuì ma?|Can I get a tax refund?|kuh-ee tway-shway mah
+S 糖醋肉要大份还是小份?|tángcùròu yào dà fèn háishi xiǎo fèn?|Large or small sweet and sour pork?
+O 小份就可以|xiǎo fèn jiù kěyǐ|A small one is fine|shyaow fun jyoh kuh-ee
+O 左转|zuǒ zhuǎn|Turn left|dzwaw jwahn
+O 晚上好|wǎnshang hǎo|Good evening|wahn-shahng how
+S 您慢用!|nín màn yòng!|Enjoy your meal!
+O 谢谢!|xièxie!|Thank you!|shyeh-shyeh
+O 不客气|bú kèqi|You're welcome|boo kuh-chee
+O 我不舒服|wǒ bù shūfu|I don't feel well|waw boo shoo-foo
