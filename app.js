@@ -1,5 +1,8 @@
 "use strict";
 const K="triptalk1";let S=JSON.parse(localStorage.getItem(K)||"null")||{lang:"ja",xp:0,streak:0,last:"",srs:{}};
+if(typeof DATA==="undefined"||!DATA[S.lang])S.lang="ja";
+const LANG={ja:{tts:"ja-JP",name:"Japanese",theme:"#e8506e",em:"🌸",hi:"こんにちは",ph:"e.g. arigato gozaimasu"},ko:{tts:"ko-KR",name:"Korean",theme:"#1677c9",em:"🌊",hi:"안녕하세요",ph:"e.g. annyeonghaseyo"},zh:{tts:"zh-CN",name:"Chinese",theme:"#d7263d",em:"🏮",hi:"你好",ph:"e.g. xie xie"}};
+const LG=()=>LANG[S.lang]||LANG.ja;
 const save=()=>localStorage.setItem(K,JSON.stringify(S));const $=s=>document.querySelector(s);const app=$("#app");
 const EMOJI={greetings:"👋",numbers:"💴",food:"🍜",transit:"🚇",emergency:"🚑",shopping:"🛍️",hotel:"🏨",smalltalk:"💬"};
 const today=()=>new Date().toLocaleDateString("en-CA");
@@ -7,7 +10,7 @@ function bumpStreak(){const t=today();if(S.last===t)return;const y=new Date(Date
 function addXP(n){S.xp+=n;bumpStreak();save();stats();}
 function stats(){$("#xp").textContent=S.xp;$("#streak").textContent=S.streak;document.body.className=S.lang;
  document.querySelectorAll("#langs button").forEach(b=>b.classList.toggle("on",b.dataset.l===S.lang));
- const m=document.querySelector('meta[name=theme-color]');if(m)m.content=S.lang==="ja"?"#e8506e":"#1677c9";}
+ const m=document.querySelector('meta[name=theme-color]');if(m)m.content=LG().theme;document.documentElement.lang=S.lang==="zh"?"zh-CN":S.lang;}
 const LV=()=>S.level==="int"||S.level==="adv"?S.level:"beg";
 const LVN={beg:"Beginner",int:"Intermediate",adv:"Advanced"};
 const items=(topic)=>{const lv=LV();return(topic?[topic]:Object.keys(TOPICS)).flatMap(t=>lv==="beg"?DATA[S.lang][t].map((a,i)=>({id:`${S.lang}:${t}:${i}`,nat:a[0],rom:a[1],en:a[2],note:a[3],pr:(PRON[S.lang]||{})[a[0]]||"",t})):
@@ -18,7 +21,7 @@ function grade(it,ok){const s=st(it.id);if(ok){s.box=Math.min(5,s.box+1);s.right
 const esc=x=>String(x).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]);
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 let voices=[];const loadV=()=>voices=speechSynthesis.getVoices();if("speechSynthesis"in window){loadV();speechSynthesis.onvoiceschanged=loadV;}
-function speak(t){if(!("speechSynthesis"in window))return;const L=S.lang==="ja"?"ja-JP":"ko-KR";
+function speak(t){if(!("speechSynthesis"in window))return;const L=LG().tts;
  const u=new SpeechSynthesisUtterance(t.replace(/…/g,""));u.lang=L;u.rate=.85;const v=voices.find(v=>v.lang.replace("_","-")===L)||voices.find(v=>v.lang.startsWith(S.lang));
  if(v)u.voice=v;speechSynthesis.cancel();speechSynthesis.speak(u);}
 const buzz=p=>{try{navigator.vibrate&&navigator.vibrate(p)}catch(e){}};
@@ -30,14 +33,13 @@ const view=h=>{app.innerHTML=`<div class="view">${h}</div>`;window.scrollTo(0,0)
 const weak=()=>items().filter(i=>{const s=S.srs[i.id];return s&&s.wrong>0&&s.wrong>=s.right/2}).sort((a,b)=>S.srs[b.id].wrong-S.srs[a.id].wrong);
 function ring(p){const r=16,c=2*Math.PI*r;return`<svg class="ring" viewBox="0 0 38 38"><circle class="bg" cx="19" cy="19" r="${r}"/><circle class="fg" cx="19" cy="19" r="${r}" stroke-dasharray="${c}" stroke-dashoffset="${c*(1-p)}"/><text x="19" y="19">${Math.round(p*100)}</text></svg>`;}
 function home(){const w=weak().length,all=items(),due=all.filter(i=>st(i.id).due<=Date.now()).length;save();
- const ja=S.lang==="ja";
- view(`<div class="hero"><span class="big">${ja?"🌸":"🌊"}</span><button class="gear" id="set" aria-label="Settings">⚙️</button><b id="hi">${ja?"こんにちは":"안녕하세요"}${S.name?", "+esc(S.name):""}!</b><p>${due} cards ready to review${trip()}</p></div>
+ view(`<div class="hero"><span class="big">${LG().em}</span><button class="gear" id="set" aria-label="Settings">⚙️</button><b id="hi">${LG().hi}${S.name?", "+esc(S.name):""}!</b><p>${due} cards ready to review${trip()}</p></div>
  <div class="lvl" role="tablist" aria-label="Level">${Object.entries(LVN).map(([k,v])=>`<button role="tab" data-lv="${k}" class="${LV()===k?"on":""}">${v}</button>`).join("")}</div>
  <div class="grid">`+Object.entries(TOPICS).map(([k,v])=>{const its=items(k),l=its.filter(i=>(S.srs[i.id]||{}).box>=2).length;
  return`<button class="tile" data-t="${k}">${ring(l/its.length)}<span class="em">${EMOJI[k]}</span><span><div class="nm">${v}</div><div class="ct">${l}/${its.length} learned</div></span></button>`}).join("")+
  `<button class="tile wide sit" id="vb"><span class="em">🔤</span><span><div class="nm">Verbs</div><div class="ct">Conjugations, flashcards & quiz</div></span></button><button class="tile wide sit" id="wb"><span class="em">📚</span><span><div class="nm">Words</div><div class="ct">Travel nouns by category · ✈️ My trip</div></span></button><button class="tile wide sit" id="sit"><span class="em">🎭</span><span><div class="nm">Situations</div><div class="ct">Role-play: restaurant, taxi, hotel…</div></span></button><button class="tile wide" data-t=""><span class="em">🎲</span><span><div class="nm">All topics mixed</div><div class="ct">${all.length} phrases</div></span></button>`+
  (w?`<button class="tile wide" data-weak><span class="em">💪</span><span><div class="nm">Weak items</div><div class="ct">${w} to strengthen</div></span></button>`:"")+
- `</div><p class="tip">Tap 🔊 to hear phrases · progress saves on this device · works offline</p>`);
+ `</div>${S.lang==="zh"?`<p class="tip">Tone marks: ā high &amp; flat · á rising · ǎ dips low · à falls sharply</p>`:""}<p class="tip">Tap 🔊 to hear phrases · progress saves on this device · works offline</p>`);
  app.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>{S.level=b.dataset.lv;save();home();});app.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>menu(b.dataset.t));$("#sit").onclick=sits;$("#vb").onclick=verbs;$("#wb").onclick=()=>words();const wb=app.querySelector("[data-weak]");if(wb)wb.onclick=()=>menu(null,true);}
 function menu(t,isWeak){const pool=()=>isWeak?weak():items(t||null);const name=(isWeak?"Weak items":t?TOPICS[t]:"All topics")+` · ${LVN[LV()]}`;const em=isWeak?"💪":t?EMOJI[t]:"🎲";
  view(`<h2>${em} ${name}</h2><p class="sub">${pool().length} phrases</p>
@@ -68,14 +70,14 @@ function flash_(p){const now=Date.now();let q=p.filter(i=>st(i.id).due<=now).sor
    const nx=ok=>{feedback(ok);grade(i,ok);if(!ok){q.push(i);tot++;}n++;n<q.length?show():done_("Session done!",`Reviewed ${n} cards · keep the streak going 🔥`)};$("#no").onclick=()=>nx(0);$("#yes").onclick=()=>nx(1);};
   $("#rv").onclick=rev;$("#fl").onclick=rev;};show();}
 const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/ou/g,"o").replace(/oo/g,"o").replace(/uu/g,"u").replace(/[^a-z]/g,"");
-function accepts(i,ans){const a=norm(ans);if(!a)return false;return i.rom.split("/").map(norm).some(r=>r===a)||ans.trim()===i.nat.replace(/[?？!！]/g,"")||ans.trim()===i.nat;}
+function accepts(i,ans){const a=norm(S.lang==="zh"?ans.replace(/v/gi,"u"):ans);if(!a)return false;return i.rom.split("/").map(norm).some(r=>r===a)||ans.trim()===i.nat.replace(/[?？!！]/g,"")||ans.trim()===i.nat;}
 function quiz(p,mode){if(p.length<2){alert("Not enough items yet");return;}const q=shuffle(p).slice(0,10);let n=0,score=0;
  const next=()=>{if(n>=q.length){addXP(score*2);return done_(`${score} / ${q.length}`,`+${score*2} bonus XP${score===q.length?" · perfect! 🌟":""}`);}
   const i=q[n],hdr=lhead(n,q.length);
   if(mode==="mc"){const rev=Math.random()<.5,lis=!rev&&i.listen&&Math.random()<.6;const opts=shuffle([i,...shuffle(items().filter(x=>x.en!==i.en)).slice(0,3)]);
    view(hdr+`<p class="hint">${rev?"How do you say…":"What does this mean?"}</p>`+(rev?`<div class="card"><div class="en">${esc(i.en)}</div></div>`:lis?`<div class="card listen"><button class="spk big" data-say aria-label="Play audio">🔊</button><div class="hint">🎧 Listen and pick the meaning</div><button class="btn ghost" id="st">Show text</button><div id="lt" hidden>${phr(i)}</div></div>`:cardHTML(i,0))+opts.map((o,k)=>`<button class="btn opt" data-k="${k}">${rev?`<span class="optp">${showNat()&&!S.easy?`<span class="on">${esc(o.nat)}</span>`:""}<b class="orom">${esc(o.rom)}</b>${S.easy&&showNat()?`<span class="on sm">${esc(o.nat)}</span>`:""}${o.pr?`<span class="opr">🗣️ ${esc(o.pr)}</span>`:""}</span>`:esc(o.en)}</button>`).join(""));bindSay(i);if(!rev)speak(i.nat);const stb=$("#st");if(stb)stb.onclick=()=>{$("#lt").hidden=false;stb.remove();};
    app.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const ok=opts[+b.dataset.k]===i;b.classList.add(ok?"ok":"bad");app.querySelectorAll("[data-k]").forEach(x=>{if(opts[+x.dataset.k]===i)x.classList.add("ok");x.onclick=null});done(i,ok);});}
-  else{view(hdr+`<p class="hint">Type it in romanization (English letters)</p><div class="card"><div class="en">${esc(i.en)}</div></div><input id="in" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${S.lang==="ja"?"e.g. arigato gozaimasu":"e.g. annyeonghaseyo"}"><p class="hint tiny">Spelling is forgiving: spaces, accents (ō) and long vowels don't matter. Native script works too.</p><button class="btn pri" id="go">Check</button>`);
+  else{view(hdr+`<p class="hint">Type it in romanization (English letters)</p><div class="card"><div class="en">${esc(i.en)}</div></div><input id="in" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${LG().ph}"><p class="hint tiny">Spelling is forgiving: spaces, accents and tone marks (ō, ǎ) and long vowels don't matter. Native script works too.</p><button class="btn pri" id="go">Check</button>`);
    const inp=$("#in");inp.focus();const chk=()=>{if($("#go").disabled)return;$("#go").disabled=true;const ok=accepts(i,inp.value);inp.disabled=true;inp.style.borderColor=ok?"var(--ok)":"var(--bad)";done(i,ok);};
    $("#go").onclick=chk;inp.onkeydown=e=>{if(e.key==="Enter")chk()};}};
  const done=(i,ok)=>{grade(i,ok);feedback(ok);if(ok)score++;speak(i.nat);
@@ -119,7 +121,7 @@ const vpairs=()=>VL().filter(v=>!vTrip||v.trip).flatMap(v=>vforms(v).map(f=>({v,
 function vflash(){const q=shuffle(vpairs()).slice(0,12);let n=0;const show=()=>{if(n>=q.length){addXP(q.length);return done_("Verb cards done!",`+${q.length} XP`);}const {v,f}=q[n];
  view(lhead(n,q.length)+`<div class="card" id="vc"><small class="hint">${esc(f.lab)} of</small><div class="${natCls(v.d)}">${esc(v.d)}</div><b class="orom">${esc(v.r)}</b><div class="en">${esc(v.en)}</div><div id="ans" hidden><hr><div class="vn">${esc(f.nat)}</div><b class="orom">${esc(f.rom)}</b>${v.irr?`<div class="note">${esc(v.irr)}</div>`:""}</div></div><button class="btn pri" id="rv">Show answer</button>`);$("#b").onclick=verbs;
  $("#rv").onclick=()=>{if($("#ans").hidden){$("#ans").hidden=false;speak(f.nat);$("#rv").textContent="Next →";}else{n++;show();}};};show();}
-function vquiz(){const all=VL().filter(v=>!vTrip||v.trip),pool=VL();const q=shuffle(all).slice(0,10);let n=0,score=0;const LN=S.lang==="ja"?"Japanese":"Korean";const next=()=>{if(n>=q.length){addXP(score*2);return done_(`${score} / ${q.length}`,`Verb quiz · +${score*2} XP`);}
+function vquiz(){const all=VL().filter(v=>!vTrip||v.trip),pool=VL();const q=shuffle(all).slice(0,10);let n=0,score=0;const LN=LG().name;const next=()=>{if(n>=q.length){addXP(score*2);return done_(`${score} / ${q.length}`,`Verb quiz · +${score*2} XP`);}
  const v=q[n];const f={nat:v.d};const wr=shuffle(pool.filter(x=>x.d!==v.d&&x.en!==v.en)).slice(0,3);
  const ov=shuffle([v,...wr]);const opts=ov.map(x=>x.d);
  view(lhead(n,q.length)+`<div class="card vq"><p class="hint">How do you say…</p><div class="en big">'${esc(v.en)}'</div><p class="hint">…in ${LN}?</p></div>`+ov.map((o,k)=>`<button class="btn opt" data-k="${k}"><span class="optp"><span class="on">${esc(o.d)}</span><b class="orom">${esc(o.r)}</b>${o.pr?`<span class="opr">🗣️ ${esc(o.pr)}</span>`:""}</span></button>`).join("")+`<div id="nx"></div>`);$("#b").onclick=verbs;
