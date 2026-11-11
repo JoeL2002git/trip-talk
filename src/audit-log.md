@@ -27,3 +27,24 @@
 - kowords 택스 리펀드: signs vary (택스리펀/텍스리펀드), and there's no single standard spelling. Left as is.
 - ko phrases with ㄴ insertion across words (e.g. 다음 역 [다음녁]) are romanized word by word. That's acceptable in Revised Romanization; left as is.
 - Korean entries weren't machine-checked against Naver, because Naver's dictionary API needs session headers. They were checked by hand instead.
+
+# Mandarin Chinese added (2026-11-10)
+
+## Scope
+- New sources: src/zh.txt (170 phrases: 105 beginner, 41 intermediate, 24 advanced), src/zhverbs.txt (24 verbs), src/zhwords.txt (63 words), src/zhsit.txt (5 scenes, 21 turns). Built into zh.js by src/build_zh.py.
+- Script and style: simplified characters, Hanyu Pinyin with tone marks, polite forms (请, 您, 谢谢) where natural.
+- Machine check: all 460 character/pinyin pairs were run through pypinyin. No syllable mismatches. The remaining differences are deliberate:
+  - Neutral tones written unmarked (谢谢 xièxie, 朋友 péngyou, 什么 shénme, 个 ge).
+  - 一 and 不 written with their spoken tone change (一下 yíxià, 一点 yìdiǎn, 不客气 bú kèqi), as in most learner textbooks.
+  - Erhua spelled as spoken (哪儿 nǎr, 这儿 zhèr).
+  - Two pypinyin misreads kept as written: 多长 duō cháng (pypinyin said zhǎng), 肚子 dùzi "belly" (pypinyin said dǔzi, which means tripe), 干烹鸡 gān (dry), not gàn.
+- Pronunciation guides were written by hand in the same English sound-it-out style as ja/ko (q = "ch", x = "sh", zh = "j", c = "ts", z = "dz", -i after zh/ch/sh/r = "rr").
+
+## Uncertain (flagged, not guessed)
+- 炒码面 for Korean 짬뽕 (jjamppong): Korean-Chinese restaurants use this name, but there's no exact mainland equivalent. The note says so, and suggests 海鲜面 as the nearest mainland dish (usually not spicy).
+- 炸酱面 note: "Incheon Chinatown is called its Korean birthplace" reflects the usual claim (Gonghwachun / Jjajangmyeon Museum). It wasn't checked against an official source this run.
+- 仁川中华街 as the Chinese name of Incheon Chinatown: widely used, but signs may also say 唐人街. Not checked on an official site.
+- 创可贴 is written chuāngkětiē (创 = wound). Some speakers say chuàng.
+- Korean-Chinese vs mainland food: the app flags the differences in notes. Staff at Incheon Chinatown restaurants mostly speak Korean, so the Korean names (짜장면, 탕수육, 짬뽕) are the ones to order with. The Chinese is for reading signs and chatting.
+- Prices in the scenes use 块/yuan. Korea and Japan use won and yen, so these are generic practice amounts.
+- Pinyin typing accepts "v" for ü and ignores tone marks. That's forgiving, but it means tones aren't graded.

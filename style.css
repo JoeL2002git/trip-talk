@@ -1,7 +1,9 @@
 :root{--bg:#fff8f8;--card:#fff;--ink:#2b2433;--mute:#8a7f8f;--line:#f0e4e6;--acc:#e8506e;--acc2:#ff9fb2;--accd:#c23a57;--soft:#ffe8ee;--ok:#2fbf71;--okbg:#e3f8ec;--bad:#ef4b5a;--badbg:#ffe5e8;--gold:#ffb627;--shadow:0 6px 20px rgba(60,20,40,.08)}
 body.ko{--bg:#f4fbfc;--acc:#1677c9;--acc2:#3cc6c0;--accd:#0f5c9c;--soft:#e2f3fa;--line:#dde9ee;--shadow:0 6px 20px rgba(10,50,80,.08)}
+body.zh{--bg:#fffaf3;--acc:#d7263d;--acc2:#f5a623;--accd:#a81b2d;--soft:#fdeeea;--line:#f1e3d8;--shadow:0 6px 20px rgba(80,30,10,.08);font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Noto Sans SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif}
 @media (prefers-color-scheme:dark){:root{--bg:#17131b;--card:#231d29;--ink:#f3eef6;--mute:#a79eae;--line:#352c3c;--soft:#3a2230;--okbg:#173527;--badbg:#3d1a20;--shadow:0 6px 20px rgba(0,0,0,.35)}
- body.ko{--bg:#0f171c;--card:#18242b;--line:#25363f;--soft:#163243}}
+ body.ko{--bg:#0f171c;--card:#18242b;--line:#25363f;--soft:#163243}
+ body.zh{--bg:#1b1312;--card:#271b1a;--line:#3b2a27;--soft:#3d1f1c}}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{background:var(--bg)}
 body{margin:0 auto;max-width:560px;min-height:100vh;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI","Hiragino Sans","Noto Sans JP","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;transition:background .4s}
